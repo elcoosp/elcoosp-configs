@@ -1,6 +1,6 @@
-import { expect, test } from "vitest";
-import { createRsLibConfig } from "../src/index";
+import { expect, test } from 'vitest';
+import { createRsLibConfig } from '../src/index';
 
-test("squared", () => {
-	expect(createRsLibConfig({ preset: "dual" })).toMatchSnapshot();
+test('squared', () => {
+  expect(createRsLibConfig({ preset: 'dual' })).toMatchSnapshot();
 });
