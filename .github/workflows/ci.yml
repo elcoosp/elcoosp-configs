@@ -2,7 +2,7 @@ name: CI
 
 on:
   push:
-    branches: ["main"]
+    branches: '**'
   pull_request:
     types: [opened, synchronize]
 
@@ -31,8 +31,8 @@ jobs:
           node-version: 22
           cache: "pnpm"
 
-      - name: Install dependencies
-        run: pnpm install
+      - name: Install
+        run: pnpm install --frozen-lockfile
 
       - name: Check
         run: pnpm check
@@ -42,15 +42,3 @@ jobs:
 
       - name: Test
         run: pnpm test
-      
-      - name: Audit
-        run: pnpm audit signatures
-
-      - name: Release
-        id: changesets
-        uses: changesets/action@v1
-        with:
-          publish: pnpm release
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
