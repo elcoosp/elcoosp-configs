@@ -1,16 +1,9 @@
 # FIXME does not work
-# remotes:
-#   - git_url: git@github.com:elcoosp/elcoosp-configs
-#     configs:
-#       - packages/lefthook/src/biome.yml
-pre-commit:
-  parallel: true
-  commands:
-    cspell:
-      run: pnpx cspell {staged_files}
-    check:
-      run: pnpx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
-    fmt:
-      run: pnpx @biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
-    lint:
-      run: pnpx @biomejs/biome lint --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+remotes:
+  - git_url: git@github.com:elcoosp/elcoosp-configs
+    ref: main
+    configs:
+      - packages/lefthook/src/biome.yml
+      - packages/lefthook/src/cspell.yml
+extends:
+  - biome
