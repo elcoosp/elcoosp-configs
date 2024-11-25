@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.5
+
+### Patch Changes
+
+- [`c77b84d`](https://github.com/elcoosp/elcoosp-configs/commit/c77b84dc44dea68da6b0e02d61496a9770d9d10d) Thanks [@elcoosp](https://github.com/elcoosp)! - Lefthook setup with biome
+
 ## 1.0.4
 
 ### Patch Changes
