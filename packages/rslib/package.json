@@ -12,9 +12,7 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "publishConfig": {
     "access": "public"
   },
@@ -34,6 +32,7 @@
     "vitest": "^2.1.5"
   },
   "dependencies": {
-    "read-pkg": "^9.0.1"
+    "read-pkg": "^9.0.1",
+    "terminal-link": "^3.0.0"
   }
 }

@@ -1,26 +1,23 @@
 {
-	"name": "@elcoosp-configs/lefthook",
-	"version": "0.0.2",
-	"type": "module",
-	"exports": {
-		".": {
-			"import": "./dist/index.js"
-		}
-	},
-	"publishConfig": {
-		"access": "public"
-	},
-	"module": "./dist/index.js",
-	"files": [
-		"dist",
-		"src"
-	],
-	"scripts": {
-		"build": "rslib build",
-		"dev": "rslib build --watch",
-		"fmt": "biome format --write"
-	},
-	"devDependencies": {
-		"@rslib/core": "^0.1.0"
-	}
+  "name": "@elcoosp-configs/lefthook",
+  "version": "0.0.2",
+  "type": "module",
+  "exports": {
+    ".": {
+      "import": "./dist/index.js"
+    }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "module": "./dist/index.js",
+  "files": ["dist", "src"],
+  "scripts": {
+    "build": "rslib build",
+    "dev": "rslib build --watch",
+    "fmt": "biome format --write"
+  },
+  "devDependencies": {
+    "@rslib/core": "^0.1.0"
+  }
 }
