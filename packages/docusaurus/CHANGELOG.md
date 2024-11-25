@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.13
+
+### Patch Changes
+
+- [`1e9b94f`](https://github.com/elcoosp/elcoosp-configs/commit/1e9b94fb2e843170f30da7302260b4adbe254a95) Thanks [@elcoosp](https://github.com/elcoosp)! - Missing require export
+
 ## 1.0.12
 
 ### Patch Changes
