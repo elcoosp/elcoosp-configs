@@ -8,7 +8,7 @@
 		"test": "turbo run test",
 		"fmt": "turbo run fmt",
 		"test:watch": "turbo run test:watch",
-		"publish": "changeset publish",
+		"release": "changeset publish",
 		"changeset": "changeset"
 	},
 	"private": true,
