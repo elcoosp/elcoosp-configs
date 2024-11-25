@@ -58,7 +58,13 @@ importers:
         specifier: ^2.1.5
         version: 2.1.5(@types/node@22.9.3)(terser@5.36.0)
 
-  packages/docusaurus/rslib:
+  packages/lefthook:
+    devDependencies:
+      '@rslib/core':
+        specifier: ^0.1.0
+        version: 0.1.0(typescript@5.7.2)
+
+  packages/rslib:
     devDependencies:
       '@biomejs/biome':
         specifier: ^1.9.3
@@ -75,12 +81,6 @@ importers:
       vitest:
         specifier: ^2.1.5
         version: 2.1.5(@types/node@22.9.3)(terser@5.36.0)
-
-  packages/lefthook:
-    devDependencies:
-      '@rslib/core':
-        specifier: ^0.1.0
-        version: 0.1.0(typescript@5.7.2)
 
 packages:
 

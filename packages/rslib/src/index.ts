@@ -21,6 +21,7 @@ const presets = {
 		],
 	},
 } as const satisfies Record<Config["preset"], RslibConfig>;
-export function createRsLibConfig({ preset }: Config) {
-	return defineConfig(presets[preset]);
+export function createRsLibConfig({ preset }: Config) :RslibConfig{
+	// Should not call defineConfig otherwise build fail
+	return presets[preset];
 }
