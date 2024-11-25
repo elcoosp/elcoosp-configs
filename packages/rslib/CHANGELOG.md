@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 1.0.4
+
+### Patch Changes
+
+- [`b552ea8`](https://github.com/elcoosp/elcoosp-configs/commit/b552ea83fd1998d50fe84a75c361665ae63f9457) Thanks [@elcoosp](https://github.com/elcoosp)! - Fix npm publish access public config
+
 ## 1.0.3
 
 ### Patch Changes
