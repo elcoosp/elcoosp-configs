@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.11
+
+### Patch Changes
+
+- [`57dc326`](https://github.com/elcoosp/elcoosp-configs/commit/57dc326903963be0fa4b248d9c192994bed439b3) Thanks [@elcoosp](https://github.com/elcoosp)! - Fix 'No "exports" main defined' error
+
 ## 1.0.10
 
 ### Patch Changes
