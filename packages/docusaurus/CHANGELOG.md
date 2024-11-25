@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.7
+
+### Patch Changes
+
+- [`91a93fb`](https://github.com/elcoosp/elcoosp-configs/commit/91a93fbc1d7bfd4006a981e82838dea59d18f149) Thanks [@elcoosp](https://github.com/elcoosp)! - Missing changeset version call on publish-packages script
+
 ## 1.0.6
 
 ### Patch Changes
