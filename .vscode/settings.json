@@ -1,8 +1,5 @@
 {
   "deno.enablePaths": [
     "readma.config.ts"
-  ],
-  "[json]": {
-    "editor.defaultFormatter": "vscode.json-language-features"
-  }
+  ]
 }
