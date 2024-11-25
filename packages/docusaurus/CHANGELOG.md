@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.14
+
+### Patch Changes
+
+- [`f48f1e8`](https://github.com/elcoosp/elcoosp-configs/commit/f48f1e871daadd92ef0c442be3dea0094a2ffc97) Thanks [@elcoosp](https://github.com/elcoosp)! - Use rslib config
+
 ## 1.0.13
 
 ### Patch Changes
