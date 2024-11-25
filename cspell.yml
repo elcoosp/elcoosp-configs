@@ -9,5 +9,7 @@ words:
   - dcarbone
   - lefthook
   - vitest
+  - repobeats
+  - readma
 ignorePaths:
   - pnpm-lock.yaml
