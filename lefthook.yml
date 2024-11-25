@@ -9,8 +9,8 @@ pre-commit:
     cspell:
       run: pnpx cspell {staged_files}
     check:
-      run: pnpx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      run: pnpx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     fmt:
-      run: pnpx @biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      run: pnpx @biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     lint:
-      run: pnpx @biomejs/biome lint --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
+      run: pnpx @biomejs/biome lint --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
