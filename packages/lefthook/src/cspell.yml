@@ -1,0 +1,5 @@
+pre-commit:
+  parallel: true
+  commands:
+    cspell:
+      run: pnpx cspell {staged_files}

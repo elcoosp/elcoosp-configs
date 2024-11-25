@@ -1,8 +1,7 @@
+extends: ./cspell.yml
 pre-commit:
   parallel: true
   commands:
-    cspell:
-      run: pnpx cspell {staged_files}
     check:
       run: pnpx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     fmt:

@@ -45,6 +45,7 @@ jobs:
 
       - name: Test
         run: pnpm test
+        # FIXME this is bugging changeset
       # - name: Capture New Release Version
       #   run: |
       #     pnpm changeset status --output=release.json
