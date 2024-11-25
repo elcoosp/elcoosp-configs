@@ -15,6 +15,9 @@
 	"files": [
 		"dist"
 	],
+	"publishConfig": {
+		"access": "public"
+	},
 	"scripts": {
 		"build": "rslib build",
 		"check": "biome check --write",
