@@ -1,7 +1,5 @@
 <a id="readme-top"></a>
-
 <!-- PROJECT SHIELDS -->
-
 [![Codecov][codecov-shield]][codecov-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -16,9 +14,9 @@
   <a href="https://github.com/elcoosp/elcoosp-configs">
     <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
   </a>
-  <h3 align="center">Readma</h3>
-
-<p align="center">
+  <h3 align="center">Configs</h3>
+  
+  <p align="center">
     Monorepo of tools config files
     <br />
     <a href="https://elcoosp-configs.vercel.app/"><strong>📖 Explore the docs »</strong></a>
@@ -66,16 +64,14 @@ See individual packages
 
 ## 🚀 Roadmap
 
-See the [open issues](https://github.com/elcoosp/elcoosp-configs/issues) for a
-full list of proposed features (and known issues).
+See the [open issues](https://github.com/elcoosp/elcoosp-configs/issues) for a full list of proposed features (and known issues).
 
 ## 💻 Contributing
 
 Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and
-create a pull request. You can also simply open an issue with the tag
-"enhancement". Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
+Don't forget to give the project a star! Thanks again!
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout-b feat/AmazingFeature`)
@@ -89,17 +85,14 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 ## 📨 Contact
 
-elcoosp - [@elcoosp](https://twitter.com/elcoosp) -
-[elcoosp@gmail.com](elcoosp@gmail.com)
+elcoosp - [@elcoosp](https://twitter.com/elcoosp) - [elcoosp@gmail.com](elcoosp@gmail.com)
 
-Project Link:
-[https://github.com/elcoosp/elcoosp-configs](https://github.com/elcoosp/elcoosp-configs)
+Project Link: [https://github.com/elcoosp/elcoosp-configs](https://github.com/elcoosp/elcoosp-configs)
 
 ## 👏 Acknowledgments
 
 <!--MARKDOWN LINKS & IMAGES-- >
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-
 ![Alt](https://repobeats.axiom.co/api/embed/b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43.svg "Repobeats analytics image")
 
 [codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
