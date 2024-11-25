@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.8
+
+### Patch Changes
+
+- [`5021786`](https://github.com/elcoosp/elcoosp-configs/commit/50217864b8612570ec9cd469c5454e04f062c72b) Thanks [@elcoosp](https://github.com/elcoosp)! - Merge ci & pub workflow
+
 ## 1.0.7
 
 ### Patch Changes
