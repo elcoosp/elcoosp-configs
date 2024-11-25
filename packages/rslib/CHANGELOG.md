@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 1.0.5
+
+### Patch Changes
+
+- [`0388536`](https://github.com/elcoosp/elcoosp-configs/commit/038853633a33040ac18c5ea4ddf3df74460c48af) Thanks [@elcoosp](https://github.com/elcoosp)! - Refactor cjsOutDistPathRoot
+
 ## 1.0.4
 
 ### Patch Changes

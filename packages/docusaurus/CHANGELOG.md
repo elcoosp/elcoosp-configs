@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.16
+
+### Patch Changes
+
+- [`0388536`](https://github.com/elcoosp/elcoosp-configs/commit/038853633a33040ac18c5ea4ddf3df74460c48af) Thanks [@elcoosp](https://github.com/elcoosp)! - Refactor cjsOutDistPathRoot
+
 ## 1.0.15
 
 ### Patch Changes
