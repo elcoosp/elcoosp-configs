@@ -8,5 +8,6 @@ words:
   - biomejs
   - dcarbone
   - lefthook
+  - vitest
 ignorePaths:
   - pnpm-lock.yaml
