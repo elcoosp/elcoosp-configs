@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.15
+
+### Patch Changes
+
+- [`7beee25`](https://github.com/elcoosp/elcoosp-configs/commit/7beee252959e8299b9979e8e6d5b510be00b3cbe) Thanks [@elcoosp](https://github.com/elcoosp)! - Use rslib config to bundle docusaurus one
+
 ## 1.0.14
 
 ### Patch Changes
