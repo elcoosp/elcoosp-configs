@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.4
+
+### Patch Changes
+
+- [`e0216eb`](https://github.com/elcoosp/elcoosp-configs/commit/e0216eb669fe612ecad83ae1274efd7cecf43ff9) Thanks [@elcoosp](https://github.com/elcoosp)! - Sync versions
+
 ## 1.0.2
 
 ### Patch Changes
