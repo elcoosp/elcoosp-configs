@@ -14,7 +14,7 @@ const config: types.ReadmeTemplateArgs = {
     doc: `https://${name}.vercel.app/`,
   },
   repobeats: "b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43",
-  images: { screenshot: "images/screenshot.gif", logo: "images/logo.png" },
+  images: { logo: "images/logo.png" },
   sections: {
     projectDescription: "Monorepo of tools config files",
     about: "Monorepo of tools config files",
