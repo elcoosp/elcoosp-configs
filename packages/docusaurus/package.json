@@ -1,6 +1,6 @@
 {
   "name": "@elcoosp-configs/docusaurus",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "private": "false",
   "type": "module",
   "exports": {
@@ -11,7 +11,9 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "build": "rslib build",
     "check": "biome check --write",

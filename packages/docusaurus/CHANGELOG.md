@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.10
+
+### Patch Changes
+
+- [`7f55845`](https://github.com/elcoosp/elcoosp-configs/commit/7f558458c0d64cc8e5101c96049a560b3d05c7b5) Thanks [@elcoosp](https://github.com/elcoosp)! - Rm workflow split in ci
+
 ## 1.0.9
 
 ### Patch Changes
