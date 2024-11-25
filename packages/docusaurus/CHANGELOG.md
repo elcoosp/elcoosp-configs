@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.9
+
+### Patch Changes
+
+- [`b073d7a`](https://github.com/elcoosp/elcoosp-configs/commit/b073d7a4dada4ba175d0ecee99472c85122c41e9) Thanks [@elcoosp](https://github.com/elcoosp)! - Fix ci changeset publish script
+
 ## 1.0.8
 
 ### Patch Changes
