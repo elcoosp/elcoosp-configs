@@ -7,3 +7,6 @@ words:
   - rslib
   - biomejs
   - dcarbone
+  - lefthook
+ignorePaths:
+  - pnpm-lock.yaml
