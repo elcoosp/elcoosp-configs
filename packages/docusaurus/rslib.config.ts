@@ -7,5 +7,13 @@ export default defineConfig({
       syntax: 'es2021',
       dts: true,
     },
+    {
+      format: 'cjs',
+      output: {
+        distPath: {
+          root: './dist/cjs',
+        },
+      },
+    },
   ],
 });

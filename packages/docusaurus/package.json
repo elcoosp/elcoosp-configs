@@ -2,7 +2,7 @@
 	"name": "@elcoosp-configs/docusaurus",
 	"version": "1.0.11",
 	"type": "module",
-	"main": "./dist/index.js",
+	"main": "./dist/cjs/index.cjs",
 	"exports": {
 		".": {
 			"types": "./dist/index.d.ts",
