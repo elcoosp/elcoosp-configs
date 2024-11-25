@@ -48,8 +48,8 @@ jobs:
       - name: Capture New Release Version
         run: |
           pnpm changeset status --output=release.json
-          echo "NEW_VERSION=$(jq -r '.releases[0].newVersion' release.json) >> "$GITHUB_ENV"
-          echo PKG_NAME=$(jq -r '.releases[0].name' release.json)" >> "$GITHUB_ENV"
+          echo "NEW_VERSION=$(jq -r '.releases[0].newVersion' release.json)" >> "$GITHUB_ENV"
+          echo "PKG_NAME=$(jq -r '.releases[0].name' release.json)" >> "$GITHUB_ENV"
           rm release.json
       - name: Release
         id: changesets
