@@ -43,7 +43,7 @@ jobs:
       - name: Test
         run: pnpm test
       
-      - name: Verify the integrity of provenance attestations and registry signatures for installed dependencies
+      - name: Audit
         run: pnpm audit signatures
 
       - name: Release
