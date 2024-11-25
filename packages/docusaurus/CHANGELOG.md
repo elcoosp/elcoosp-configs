@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.6
+
+### Patch Changes
+
+- [`feb8844`](https://github.com/elcoosp/elcoosp-configs/commit/feb88441e04af5a95c8ae48d6d339a1c5925ec79) Thanks [@elcoosp](https://github.com/elcoosp)! - Fix ci release
+
 ## 1.0.5
 
 ### Patch Changes
