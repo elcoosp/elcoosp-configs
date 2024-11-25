@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 1.0.3
+
+### Patch Changes
+
+- [`2f1ab72`](https://github.com/elcoosp/elcoosp-configs/commit/2f1ab72178a793834d8d58a0b4c6ad125f780f9c) Thanks [@elcoosp](https://github.com/elcoosp)! - Clean up rslib
+
 ## 1.0.2
 
 ### Patch Changes
