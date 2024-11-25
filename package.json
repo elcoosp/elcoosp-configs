@@ -9,7 +9,8 @@
 		"lint": "turbo run lint",
 		"fmt": "turbo run fmt",
 		"test:watch": "turbo run test:watch",
-		"publish-packages": "pnpm build && changeset version && changeset publish",
+		"publish-packages": "pnpm build && changeset publish",
+		"version-packages": "changeset version && pnpm fmt",
 		"changeset": "changeset"
 	},
 	"private": true,
