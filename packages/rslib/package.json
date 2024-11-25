@@ -2,8 +2,10 @@
 	"name": "@elcoosp-configs/rslib",
 	"version": "1.0.0",
 	"type": "module",
+	"main": "./dist/cjs/index.cjs",
 	"exports": {
 		".": {
+			"require": "./dist/cjs/index.cjs",
 			"types": "./dist/index.d.ts",
 			"import": "./dist/index.js"
 		}
