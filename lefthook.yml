@@ -1,11 +1,9 @@
 pre-commit:
+  parallel: true
   commands:
     check:
-      parallel: true
       run: pnpx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
     fmt:
-      parallel: true
       run: pnpx @biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
     lint:
-      parallel: true
       run: pnpx @biomejs/biome lint --write --no-errors-on-unmatched --files-ignore-unknown=true --colors=off {staged_files}
