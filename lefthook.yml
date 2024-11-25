@@ -1,3 +1,4 @@
+# TODO https://github.com/evilmartians/lefthook/blob/master/docs/configuration.md#remotes
 pre-commit:
   parallel: true
   commands:

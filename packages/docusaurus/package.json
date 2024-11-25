@@ -15,8 +15,9 @@
 	"scripts": {
 		"build": "rslib build",
 		"check": "biome check --write",
-		"dev": "rslib build --watch",
+		"lint": "biome lint --write",
 		"fmt": "biome format --write",
+		"dev": "rslib build --watch",
 		"test": "vitest run",
 		"test:watch": "vitest run --watch"
 	},

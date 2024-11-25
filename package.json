@@ -6,6 +6,7 @@
 		"build": "turbo run build",
 		"check": "turbo run check",
 		"test": "turbo run test",
+		"lint": "turbo run lint",
 		"fmt": "turbo run fmt",
 		"test:watch": "turbo run test:watch",
 		"release": "changeset publish",
