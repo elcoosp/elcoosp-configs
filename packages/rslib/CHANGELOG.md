@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 2.0.0
+
+### Major Changes
+
+- [`0c390f0`](https://github.com/elcoosp/elcoosp-configs/commit/0c390f020c11cc7aa4a1f80516f409dd6244c56f) Thanks [@elcoosp](https://github.com/elcoosp)! - Make createRsLibConfig async
+
 ## 1.0.5
 
 ### Patch Changes
