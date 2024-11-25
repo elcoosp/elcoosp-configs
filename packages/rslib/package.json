@@ -1,6 +1,6 @@
 {
 	"name": "@elcoosp-configs/rslib",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"type": "module",
 	"main": "./dist/cjs/index.cjs",
 	"exports": {
@@ -12,7 +12,9 @@
 	},
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"scripts": {
 		"build": "rslib build",
 		"check": "biome check --write",
