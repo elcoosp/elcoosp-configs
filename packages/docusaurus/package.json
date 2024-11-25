@@ -1,6 +1,6 @@
 {
 	"name": "@elcoosp-configs/docusaurus",
-	"version": "1.0.10",
+	"version": "1.0.11",
 	"type": "module",
 	"main": "./dist/index.js",
 	"exports": {
@@ -11,7 +11,9 @@
 	},
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": ["dist"],
+	"files": [
+		"dist"
+	],
 	"publishConfig": {
 		"access": "public"
 	},
