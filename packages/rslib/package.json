@@ -32,5 +32,8 @@
     "@types/node": "^22.9.4",
     "typescript": "^5.6.3",
     "vitest": "^2.1.5"
+  },
+  "dependencies": {
+    "read-pkg": "^9.0.1"
   }
 }

@@ -1,9 +1,11 @@
 import type { RslibConfig } from '@rslib/core';
+import {readPackage} from 'read-pkg';
 export type Config = {
   preset: 'dual';
 };
 const presets = {
-  dual: () => {
+  dual: async () => {
+    const pkg = await readPackage()
     // TODO check that match inside package.json
     const cjsOutDistPathRoot = './dist/cjs';
     return {
@@ -24,8 +26,8 @@ const presets = {
       ],
     };
   },
-} as const satisfies Record<Config['preset'], () => RslibConfig>;
-export function createRsLibConfig({ preset }: Config): RslibConfig {
+} as const satisfies Record<Config['preset'], () => Promise<RslibConfig>>;
+export async function createRsLibConfig({ preset }: Config): Promise<RslibConfig> {
   // Should not call defineConfig otherwise build fail
-  return presets[preset]();
+  return (await presets[preset]());
 }
