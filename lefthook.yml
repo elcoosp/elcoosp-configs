@@ -1,4 +1,3 @@
-# FIXME does not work
 remotes:
   - git_url: git@github.com:elcoosp/elcoosp-configs
     ref: main
