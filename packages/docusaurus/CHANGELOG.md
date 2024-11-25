@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.0.12
+
+### Patch Changes
+
+- [`cd15b4b`](https://github.com/elcoosp/elcoosp-configs/commit/cd15b4b29f8d1b5b4118c70cee904aea251f10f9) Thanks [@elcoosp](https://github.com/elcoosp)! - Emit cjs output
+
 ## 1.0.11
 
 ### Patch Changes
