@@ -1,5 +1,11 @@
 # @elcoosp-configs/lefthook
 
+## 0.0.3
+
+### Patch Changes
+
+- [`5f4d5df`](https://github.com/elcoosp/elcoosp-configs/commit/5f4d5df06441fc2d47c301e953d4f4231a796b7b) Thanks [@elcoosp](https://github.com/elcoosp)! - Check that main is correctly defined when using rslib dual preset
+
 ## 0.0.2
 
 ### Patch Changes
