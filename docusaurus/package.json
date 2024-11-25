@@ -15,8 +15,9 @@
     "build": "rslib build",
     "check": "biome check --write",
     "dev": "rslib build --watch",
-    "format": "biome format --write",
-    "test": "vitest run"
+    "fmt": "biome format --write",
+    "test": "vitest run",
+    "test:watch": "vitest run --watch"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.3",

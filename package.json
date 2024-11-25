@@ -6,6 +6,8 @@
 	"scripts": {
 		"build": "turbo run build",
 		"check": "turbo run check",
-		"test": "turbo run test"
+		"test": "turbo run test",
+		"fmt": "turbo run fmt",
+		"test:watch": "turbo run test:watch"
 	}
 }

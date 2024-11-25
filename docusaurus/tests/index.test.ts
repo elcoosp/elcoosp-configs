@@ -1,7 +1,17 @@
 import { expect, test } from 'vitest';
-import { squared } from '../src/index';
+import { createDocusaurusConfig, classicPreset, themeConfig } from '../src';
 
-test('squared', () => {
-  expect(squared(2)).toBe(4);
-  expect(squared(12)).toBe(144);
+test('createDocusaurusConfig', () => {
+  const result = createDocusaurusConfig(
+    { organizationName: 'elcoosp', projectName: 'readma' },
+    (derived) => {
+      return {
+        tagline: 'Beautiful effortless README generator',
+        plugins: [],
+        presets: [classicPreset(derived)],
+        themeConfig: themeConfig(derived),
+      };
+    },
+  );
+expect(result).toMatchSnapshot()
 });

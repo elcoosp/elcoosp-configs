@@ -1,0 +1,309 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`createDocusaurusConfig 1`] = `
+{
+  "baseUrl": "/",
+  "favicon": "img/favicon.ico",
+  "future": {
+    "experimental_faster": true,
+  },
+  "i18n": {
+    "defaultLocale": "en",
+    "locales": [
+      "en",
+    ],
+  },
+  "onBrokenLinks": "throw",
+  "onBrokenMarkdownLinks": "warn",
+  "organizationName": "elcoosp",
+  "plugins": [],
+  "presets": [
+    [
+      "classic",
+      {
+        "blog": {
+          "editUrl": "https://github.com/elcoosp/readma/tree/main/documentation/docs",
+          "feedOptions": {
+            "type": [
+              "rss",
+              "atom",
+            ],
+            "xslt": true,
+          },
+          "onInlineAuthors": "warn",
+          "onInlineTags": "warn",
+          "onUntruncatedBlogPosts": "warn",
+          "showReadingTime": true,
+        },
+        "docs": {
+          "editUrl": "https://github.com/elcoosp/readma/tree/main/documentation/blog",
+          "sidebarPath": "./sidebars.ts",
+        },
+        "theme": {
+          "customCss": "./src/css/custom.css",
+        },
+      },
+    ],
+  ],
+  "tagline": "Beautiful effortless README generator",
+  "themeConfig": {
+    "footer": {
+      "links": [
+        {
+          "items": [
+            {
+              "label": "Introduction",
+              "to": "/docs/intro",
+            },
+          ],
+          "title": "Docs",
+        },
+        {
+          "items": [
+            {
+              "href": "https://stackoverflow.com/questions/tagged/readma",
+              "label": "Stack Overflow",
+            },
+          ],
+          "title": "Community",
+        },
+        {
+          "items": [
+            {
+              "label": "Blog",
+              "to": "/blog",
+            },
+            {
+              "href": "https://github.com/elcoosp/readma",
+              "label": "GitHub",
+            },
+          ],
+          "title": "More",
+        },
+      ],
+      "style": "dark",
+    },
+    "image": "img/social-card.png",
+    "navbar": {
+      "items": [
+        {
+          "label": "Introduction",
+          "position": "left",
+          "sidebarId": "introductionSidebar",
+          "type": "docSidebar",
+        },
+        {
+          "label": "Blog",
+          "position": "left",
+          "to": "/blog",
+        },
+        {
+          "href": "https://github.com/elcoosp/readma",
+          "label": "GitHub",
+          "position": "right",
+        },
+      ],
+      "logo": {
+        "alt": "Readma logo",
+        "src": "img/logo.svg",
+      },
+      "title": "Readma",
+    },
+    "prism": {
+      "darkTheme": {
+        "plain": {
+          "backgroundColor": "#282A36",
+          "color": "#F8F8F2",
+        },
+        "styles": [
+          {
+            "style": {
+              "color": "rgb(189, 147, 249)",
+            },
+            "types": [
+              "prolog",
+              "constant",
+              "builtin",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(80, 250, 123)",
+            },
+            "types": [
+              "inserted",
+              "function",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(255, 85, 85)",
+            },
+            "types": [
+              "deleted",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(255, 184, 108)",
+            },
+            "types": [
+              "changed",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(248, 248, 242)",
+            },
+            "types": [
+              "punctuation",
+              "symbol",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(255, 121, 198)",
+            },
+            "types": [
+              "string",
+              "char",
+              "tag",
+              "selector",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(189, 147, 249)",
+              "fontStyle": "italic",
+            },
+            "types": [
+              "keyword",
+              "variable",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(98, 114, 164)",
+            },
+            "types": [
+              "comment",
+            ],
+          },
+          {
+            "style": {
+              "color": "rgb(241, 250, 140)",
+            },
+            "types": [
+              "attr-name",
+            ],
+          },
+        ],
+      },
+      "theme": {
+        "plain": {
+          "backgroundColor": "#f6f8fa",
+          "color": "#393A34",
+        },
+        "styles": [
+          {
+            "style": {
+              "color": "#999988",
+              "fontStyle": "italic",
+            },
+            "types": [
+              "comment",
+              "prolog",
+              "doctype",
+              "cdata",
+            ],
+          },
+          {
+            "style": {
+              "opacity": 0.7,
+            },
+            "types": [
+              "namespace",
+            ],
+          },
+          {
+            "style": {
+              "color": "#e3116c",
+            },
+            "types": [
+              "string",
+              "attr-value",
+            ],
+          },
+          {
+            "style": {
+              "color": "#393A34",
+            },
+            "types": [
+              "punctuation",
+              "operator",
+            ],
+          },
+          {
+            "style": {
+              "color": "#36acaa",
+            },
+            "types": [
+              "entity",
+              "url",
+              "symbol",
+              "number",
+              "boolean",
+              "variable",
+              "constant",
+              "property",
+              "regex",
+              "inserted",
+            ],
+          },
+          {
+            "style": {
+              "color": "#00a4db",
+            },
+            "types": [
+              "atrule",
+              "keyword",
+              "attr-name",
+              "selector",
+            ],
+          },
+          {
+            "style": {
+              "color": "#d73a49",
+            },
+            "types": [
+              "function",
+              "deleted",
+              "tag",
+            ],
+          },
+          {
+            "style": {
+              "color": "#6f42c1",
+            },
+            "types": [
+              "function-variable",
+            ],
+          },
+          {
+            "style": {
+              "color": "#00009f",
+            },
+            "types": [
+              "tag",
+              "selector",
+              "keyword",
+            ],
+          },
+        ],
+      },
+    },
+  },
+  "title": "Readma",
+  "url": "https://readma.vercel.app",
+}
+`;
