@@ -3,7 +3,7 @@ const name = "elcoosp-configs";
 const author = "elcoosp";
 const config: types.ReadmeTemplateArgs = {
   language: "ts",
-  title: "Readma",
+  title: "Configs",
   author,
   githubUsername: author,
   repoName: name,
