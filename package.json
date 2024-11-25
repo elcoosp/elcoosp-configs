@@ -7,7 +7,7 @@
 		"test": "turbo run test",
 		"fmt": "turbo run fmt",
 		"test:watch": "turbo run test:watch",
-		"release": "changeset init"
+		"publish": "changeset publish"
 	},
 	"private": true,
 	"devDependencies": {
