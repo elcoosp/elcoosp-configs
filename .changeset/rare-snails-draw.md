@@ -2,4 +2,4 @@
 "@elcoosp-configs/docusaurus": patch
 ---
 
-Husky and lint-staged setup
+Lefthook setup with biome
