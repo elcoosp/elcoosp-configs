@@ -9,7 +9,7 @@
 		"lint": "turbo run lint",
 		"fmt": "turbo run fmt",
 		"test:watch": "turbo run test:watch",
-		"release": "changeset publish",
+		"release": "pnpm build && changeset publish",
 		"changeset": "changeset"
 	},
 	"private": true,

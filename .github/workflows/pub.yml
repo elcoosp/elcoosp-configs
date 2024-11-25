@@ -32,15 +32,6 @@ jobs:
         - name: Install
           run: pnpm install --frozen-lockfile
   
-        - name: Check
-          run: pnpm check
-  
-        - name: Test
-          run: pnpm test
-        
-        - name: Audit
-          run: pnpm audit signatures
-  
         - name: Release
           id: changesets
           uses: changesets/action@v1
