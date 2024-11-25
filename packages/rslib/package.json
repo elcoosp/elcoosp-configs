@@ -12,15 +12,14 @@
 	},
 	"module": "./dist/index.js",
 	"types": "./dist/index.d.ts",
-	"files": [
-		"dist"
-	],
+	"files": ["dist"],
 	"scripts": {
 		"build": "rslib build",
 		"check": "biome check --write",
 		"dev": "rslib build --watch",
 		"format": "biome format --write",
-		"test": "vitest run"
+		"test": "vitest run",
+		"fmt": "biome format --write"
 	},
 	"devDependencies": {
 		"@biomejs/biome": "^1.9.3",
