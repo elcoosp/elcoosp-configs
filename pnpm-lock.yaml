@@ -53,13 +53,13 @@ importers:
         version: 0.1.0(typescript@5.7.2)
       '@types/node':
         specifier: ^22.9.4
-        version: 22.9.4
+        version: 22.10.0
       typescript:
         specifier: ^5.6.3
         version: 5.7.2
       vitest:
         specifier: ^2.1.5
-        version: 2.1.5(@types/node@22.9.4)(terser@5.36.0)
+        version: 2.1.5(@types/node@22.10.0)(terser@5.36.0)
 
   packages/lefthook:
     devDependencies:
@@ -84,13 +84,13 @@ importers:
         version: 0.1.0(typescript@5.7.2)
       '@types/node':
         specifier: ^22.9.4
-        version: 22.9.4
+        version: 22.10.0
       typescript:
         specifier: ^5.6.3
         version: 5.7.2
       vitest:
         specifier: ^2.1.5
-        version: 2.1.5(@types/node@22.9.4)(terser@5.36.0)
+        version: 2.1.5(@types/node@22.10.0)(terser@5.36.0)
 
 packages:
 
@@ -1940,8 +1940,8 @@ packages:
   '@types/node@17.0.45':
     resolution: {integrity: sha512-w+tIMs3rq2afQdsPJlODhoUEKzFP1ayaoyl1CcnwtIlsVe7K7bA1NGm4s3PraqTLlXnbIN84zuBlxBWo1u9BLw==}
 
-  '@types/node@22.9.4':
-    resolution: {integrity: sha512-d9RWfoR7JC/87vj7n+PVTzGg9hDyuFjir3RxUHbjFSKNd9mpxbxwMEyaCim/ddCmy4IuW7HjTzF3g9p3EtWEOg==}
+  '@types/node@22.10.0':
+    resolution: {integrity: sha512-XC70cRZVElFHfIUB40FgZOBbgJYFKKMa5nb9lxcwYstFG/Mi+/Y0bGS+rs6Dmhmkpq4pnNiLiuZAbc02YCOnmA==}
 
   '@types/normalize-package-data@2.4.4':
     resolution: {integrity: sha512-37i+OaWTh9qeK4LSHPsyRC7NahnGotNuZvjLSgcPzblpHB3rrCJxAOgI5gCdKm7coonsaX1Of0ILiTcnZjbfxA==}
@@ -5599,8 +5599,8 @@ packages:
     engines: {node: '>=14.17'}
     hasBin: true
 
-  undici-types@6.19.8:
-    resolution: {integrity: sha512-ve2KP6f/JnbPBFyobGHuerC9g1FYGn/F8n1LWTwNxCEzd6IfqTwUQcNXgEtmmQ6DlRrC1hrSrBnCZPokRrDHjw==}
+  undici-types@6.20.0:
+    resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==}
 
   unicode-canonical-property-names-ecmascript@2.0.1:
     resolution: {integrity: sha512-dA8WbNeb2a6oQzAQ55YlT5vQAWGV9WXOsi3SskE3bcCdM0P4SDd+24zS/OCacdRq5BkdsRj9q3Pg6YyQoxIGqg==}
@@ -8184,7 +8184,7 @@ snapshots:
       '@jest/schemas': 29.6.3
       '@types/istanbul-lib-coverage': 2.0.6
       '@types/istanbul-reports': 3.0.4
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       '@types/yargs': 17.0.33
       chalk: 4.1.2
 
@@ -8555,20 +8555,20 @@ snapshots:
   '@types/body-parser@1.19.5':
     dependencies:
       '@types/connect': 3.4.38
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/bonjour@3.5.13':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/connect-history-api-fallback@1.5.4':
     dependencies:
       '@types/express-serve-static-core': 5.0.2
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/connect@3.4.38':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/debug@4.1.12':
     dependencies:
@@ -8592,14 +8592,14 @@ snapshots:
 
   '@types/express-serve-static-core@4.19.6':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
 
   '@types/express-serve-static-core@5.0.2':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       '@types/qs': 6.9.17
       '@types/range-parser': 1.2.7
       '@types/send': 0.17.4
@@ -8627,7 +8627,7 @@ snapshots:
 
   '@types/http-proxy@1.17.15':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/istanbul-lib-coverage@2.0.6': {}
 
@@ -8653,15 +8653,15 @@ snapshots:
 
   '@types/node-forge@1.3.11':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/node@12.20.55': {}
 
   '@types/node@17.0.45': {}
 
-  '@types/node@22.9.4':
+  '@types/node@22.10.0':
     dependencies:
-      undici-types: 6.19.8
+      undici-types: 6.20.0
 
   '@types/normalize-package-data@2.4.4': {}
 
@@ -8701,12 +8701,12 @@ snapshots:
 
   '@types/sax@1.2.7':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/send@0.17.4':
     dependencies:
       '@types/mime': 1.3.5
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/serve-index@1.9.4':
     dependencies:
@@ -8715,12 +8715,12 @@ snapshots:
   '@types/serve-static@1.15.7':
     dependencies:
       '@types/http-errors': 2.0.4
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       '@types/send': 0.17.4
 
   '@types/sockjs@0.3.36':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/unist@2.0.11': {}
 
@@ -8728,7 +8728,7 @@ snapshots:
 
   '@types/ws@8.5.13':
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
 
   '@types/yargs-parser@21.0.3': {}
 
@@ -8745,13 +8745,13 @@ snapshots:
       chai: 5.1.2
       tinyrainbow: 1.2.0
 
-  '@vitest/mocker@2.1.5(vite@5.4.11(@types/node@22.9.4)(terser@5.36.0))':
+  '@vitest/mocker@2.1.5(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0))':
     dependencies:
       '@vitest/spy': 2.1.5
       estree-walker: 3.0.3
       magic-string: 0.30.13
     optionalDependencies:
-      vite: 5.4.11(@types/node@22.9.4)(terser@5.36.0)
+      vite: 5.4.11(@types/node@22.10.0)(terser@5.36.0)
 
   '@vitest/pretty-format@2.1.5':
     dependencies:
@@ -9823,7 +9823,7 @@ snapshots:
 
   eval@0.1.8:
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       require-like: 0.1.2
 
   eventemitter3@4.0.7: {}
@@ -10539,7 +10539,7 @@ snapshots:
   jest-util@29.7.0:
     dependencies:
       '@jest/types': 29.6.3
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       chalk: 4.1.2
       ci-info: 3.9.0
       graceful-fs: 4.2.11
@@ -10547,13 +10547,13 @@ snapshots:
 
   jest-worker@27.5.1:
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
 
   jest-worker@29.7.0:
     dependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       jest-util: 29.7.0
       merge-stream: 2.0.0
       supports-color: 8.1.1
@@ -12901,7 +12901,7 @@ snapshots:
 
   typescript@5.7.2: {}
 
-  undici-types@6.19.8: {}
+  undici-types@6.20.0: {}
 
   unicode-canonical-property-names-ecmascript@2.0.1: {}
 
@@ -13035,13 +13035,13 @@ snapshots:
       '@types/unist': 3.0.3
       vfile-message: 4.0.2
 
-  vite-node@2.1.5(@types/node@22.9.4)(terser@5.36.0):
+  vite-node@2.1.5(@types/node@22.10.0)(terser@5.36.0):
     dependencies:
       cac: 6.7.14
       debug: 4.3.7
       es-module-lexer: 1.5.4
       pathe: 1.1.2
-      vite: 5.4.11(@types/node@22.9.4)(terser@5.36.0)
+      vite: 5.4.11(@types/node@22.10.0)(terser@5.36.0)
     transitivePeerDependencies:
       - '@types/node'
       - less
@@ -13053,20 +13053,20 @@ snapshots:
       - supports-color
       - terser
 
-  vite@5.4.11(@types/node@22.9.4)(terser@5.36.0):
+  vite@5.4.11(@types/node@22.10.0)(terser@5.36.0):
     dependencies:
       esbuild: 0.21.5
       postcss: 8.4.49
       rollup: 4.27.4
     optionalDependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
       fsevents: 2.3.3
       terser: 5.36.0
 
-  vitest@2.1.5(@types/node@22.9.4)(terser@5.36.0):
+  vitest@2.1.5(@types/node@22.10.0)(terser@5.36.0):
     dependencies:
       '@vitest/expect': 2.1.5
-      '@vitest/mocker': 2.1.5(vite@5.4.11(@types/node@22.9.4)(terser@5.36.0))
+      '@vitest/mocker': 2.1.5(vite@5.4.11(@types/node@22.10.0)(terser@5.36.0))
       '@vitest/pretty-format': 2.1.5
       '@vitest/runner': 2.1.5
       '@vitest/snapshot': 2.1.5
@@ -13082,11 +13082,11 @@ snapshots:
       tinyexec: 0.3.1
       tinypool: 1.0.2
       tinyrainbow: 1.2.0
-      vite: 5.4.11(@types/node@22.9.4)(terser@5.36.0)
-      vite-node: 2.1.5(@types/node@22.9.4)(terser@5.36.0)
+      vite: 5.4.11(@types/node@22.10.0)(terser@5.36.0)
+      vite-node: 2.1.5(@types/node@22.10.0)(terser@5.36.0)
       why-is-node-running: 2.3.0
     optionalDependencies:
-      '@types/node': 22.9.4
+      '@types/node': 22.10.0
     transitivePeerDependencies:
       - less
       - lightningcss
