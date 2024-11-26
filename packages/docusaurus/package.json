@@ -1,5 +1,6 @@
 {
   "name": "@elcoosp-configs/docusaurus",
+  "description": "Presets configs for docusaurus",
   "version": "1.0.18",
   "type": "module",
   "main": "./dist/cjs/index.cjs",

@@ -35,6 +35,7 @@
   <summary>Table of contents</summary>
   <ol>
    <li><a href="#about-the-project">💡 About the project</a></li>
+   <li><a href="#features">✨ Features</a></li>
    <li><a href="#getting-started">🎉 Getting started</a></li>
    <li><a href="#installation">📋 Installation</a></li>
    <li><a href="#usage">🔧 Usage</a></li>
@@ -48,16 +49,19 @@
 
 ## 💡 About the project
 
+Monorepo of tools config files
+
+
 > [!TIP]
 > You are inside the entry point of **elcoosp-configs** workspace, here is a list of available packages
 
-| Package                                                      |
-| ------------------------------------------------------------ |
-| [@elcoosp-configs/docusaurus](packages/docusaurus/README.md) |
-| [@elcoosp-configs/lefthook](packages/lefthook/README.md)     |
-| [@elcoosp-configs/rslib](packages/rslib/README.md)           |
+| Package                                            | Description                    |
+| -------------------------------------------------- | ------------------------------ |
+| [@elcoosp-configs/docusaurus](packages/docusaurus) | Presets configs for docusaurus |
+| [@elcoosp-configs/rslib](packages/rslib)           | Presets configs for rslib      |
+| [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook   |
 
-Monorepo of tools config files
+## ✨ Features
 
 ## 🎉 Getting started
 

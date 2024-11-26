@@ -39,6 +39,7 @@
   <summary>Table of contents</summary>
   <ol>
    <li><a href="#about-the-project">💡 About the project</a></li>
+   <li><a href="#features">✨ Features</a></li>
    <li><a href="#getting-started">🎉 Getting started</a></li>
    <li><a href="#installation">📋 Installation</a></li>
    <li><a href="#usage">🔧 Usage</a></li>
@@ -54,6 +55,8 @@
 
 Monorepo of tools config files
 
+## ✨ Features
+
 ## 🎉 Getting started
 
 See screenshot
@@ -68,6 +71,9 @@ pnpm add @elcoosp-configs/docusaurus
 ```
 ```sh
 yarn add @elcoosp-configs/docusaurus
+```
+```sh
+deno add npm:@elcoosp-configs/docusaurus
 ```
 
 ## 🔧 Usage
