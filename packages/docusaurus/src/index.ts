@@ -27,9 +27,9 @@ export function themeConfig({
       items: [
         {
           type: 'docSidebar',
-          sidebarId: 'introductionSidebar',
+          sidebarId: 'docsSidebar',
           position: 'left',
-          label: 'Introduction',
+          label: 'Docs',
         },
         { to: '/blog', label: 'Blog', position: 'left' },
         {
@@ -46,7 +46,7 @@ export function themeConfig({
           title: 'Docs',
           items: [
             {
-              label: 'Introduction',
+              label: 'Docs',
               to: '/docs/intro',
             },
           ],
