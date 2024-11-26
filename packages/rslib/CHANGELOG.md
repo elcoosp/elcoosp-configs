@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 2.0.2
+
+### Patch Changes
+
+- [`7660c0c`](https://github.com/elcoosp/elcoosp-configs/commit/7660c0c6b7f5fa624c019bd1ad6150818016947c) Thanks [@elcoosp](https://github.com/elcoosp)! - Update readme
+
 ## 2.0.1
 
 ### Patch Changes
