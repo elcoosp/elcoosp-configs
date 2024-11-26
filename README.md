@@ -48,8 +48,6 @@
 
 ## 💡 About the project
 
-<img src="images/screenshot.gif" alt="Product screenshot" />
-
 Monorepo of tools config files
 
 ## 🎉 Getting started
