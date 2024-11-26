@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.1.0
+
+### Minor Changes
+
+- [`a1d9f58`](https://github.com/elcoosp/elcoosp-configs/commit/a1d9f5835766af986626cabc97f55b671ab9f559) Thanks [@elcoosp](https://github.com/elcoosp)! - Rename introductionSidebar docSidebar
+
 ## 1.0.18
 
 ### Patch Changes
