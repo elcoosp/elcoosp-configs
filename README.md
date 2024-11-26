@@ -48,6 +48,15 @@
 
 ## 💡 About the project
 
+> [!TIP]
+> You are inside the entry point of **elcoosp-configs** workspace, here is a list of available packages
+
+| Package                                                      |
+| ------------------------------------------------------------ |
+| [@elcoosp-configs/docusaurus](packages/docusaurus/README.md) |
+| [@elcoosp-configs/lefthook](packages/lefthook/README.md)     |
+| [@elcoosp-configs/rslib](packages/rslib/README.md)           |
+
 Monorepo of tools config files
 
 ## 🎉 Getting started
