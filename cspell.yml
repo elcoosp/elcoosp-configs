@@ -1,15 +1,14 @@
-# TODO https://cspell.org/configuration/imports/
+dictionaryDefinitions:
+  - name: ts-libs
+    path: ./ts-libs.txt
+    addWords: true
+# TODO https://cspell.org/configuration/imports/ + Build time remote fetch
+dictionaries:
+  - ts-libs
+ignorePaths:
+  - node_modules
+  - pnpm-lock.yaml
+  - ./ts-libs.txt
 words:
   # User
   - elcoosp
-  # Libs
-  - pnpx
-  - rslib
-  - biomejs
-  - dcarbone
-  - lefthook
-  - vitest
-  - repobeats
-  - readma
-ignorePaths:
-  - pnpm-lock.yaml
