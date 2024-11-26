@@ -52,7 +52,7 @@ exports[`createDocusaurusConfig 1`] = `
         {
           "items": [
             {
-              "label": "Introduction",
+              "label": "Docs",
               "to": "/docs/intro",
             },
           ],
@@ -87,9 +87,9 @@ exports[`createDocusaurusConfig 1`] = `
     "navbar": {
       "items": [
         {
-          "label": "Introduction",
+          "label": "Docs",
           "position": "left",
-          "sidebarId": "introductionSidebar",
+          "sidebarId": "docsSidebar",
           "type": "docSidebar",
         },
         {

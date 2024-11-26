@@ -6,3 +6,4 @@ lefthook
 vitest
 repobeats
 readma
+atrule
