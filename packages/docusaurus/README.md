@@ -1,6 +1,6 @@
 <a id="readme-top"></a>
 <!-- PROJECT SHIELDS -->
-[![JSR version][jsr-version-shield]][jsr-version-url]
+[![NPM version][npm-version-shield]][npm-version-url]
 [![Codecov][codecov-shield]][codecov-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -16,7 +16,7 @@
     <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
   </a>
   <h3 align="center">Configs</h3>
-  <h4 align="center">packages/docusaurus</h4>
+  <h4 align="center">@elcoosp-configs/docusaurus</h4>
   <p align="center">
     Monorepo of tools config files
     <br />
@@ -32,7 +32,7 @@
 </div>
 
 > [!NOTE]
-> You are inside the **packages/docusaurus** workspace member package, not the repository entry point
+> You are inside the **@elcoosp-configs/docusaurus** workspace member package, not the repository entry point
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -61,7 +61,7 @@ See screenshot
 ## 📋 Installation
 
 ```sh
-deno install @elcoosp-configs/packages/docusaurus
+deno install @elcoosp-configs/docusaurus
 ```
 
 ## 🔧 Usage
@@ -99,10 +99,10 @@ Project Link: [https://github.com/elcoosp/elcoosp-configs](https://github.com/el
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 ![Alt](https://repobeats.axiom.co/api/embed/b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43.svg "Repobeats analytics image")
 
-[jsr-version-shield]: https://img.shields.io/jsr/v/@elcoosp-configs/packages/docusaurus.svg?style=for-the-badge
-[jsr-version-url]: https://jsr.io/@elcoosp-configs/packages/docusaurus
+[npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/docusaurus.svg?style=for-the-badge
+[npm-version-url]: https://www.npmjs.com/package/@elcoosp-configs/docusaurus
 [codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
-[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/packages/docusaurus
+[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/@elcoosp-configs/docusaurus
 [contributors-shield]: https://img.shields.io/github/contributors/elcoosp/elcoosp-configs.svg?style=for-the-badge
 [contributors-url]: https://github.com/elcoosp/elcoosp-configs/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/elcoosp/elcoosp-configs.svg?style=for-the-badge
