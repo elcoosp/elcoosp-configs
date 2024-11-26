@@ -61,7 +61,13 @@ See screenshot
 ## 📋 Installation
 
 ```sh
-deno install @elcoosp-configs/docusaurus
+npm add @elcoosp-configs/docusaurus
+```
+```sh
+pnpm add @elcoosp-configs/docusaurus
+```
+```sh
+yarn add @elcoosp-configs/docusaurus
 ```
 
 ## 🔧 Usage

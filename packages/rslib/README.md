@@ -61,7 +61,13 @@ See screenshot
 ## 📋 Installation
 
 ```sh
-deno install @elcoosp-configs/rslib
+npm add @elcoosp-configs/rslib
+```
+```sh
+pnpm add @elcoosp-configs/rslib
+```
+```sh
+yarn add @elcoosp-configs/rslib
 ```
 
 ## 🔧 Usage

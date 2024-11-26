@@ -61,7 +61,13 @@ See screenshot
 ## 📋 Installation
 
 ```sh
-deno install @elcoosp-configs/lefthook
+npm add @elcoosp-configs/lefthook
+```
+```sh
+pnpm add @elcoosp-configs/lefthook
+```
+```sh
+yarn add @elcoosp-configs/lefthook
 ```
 
 ## 🔧 Usage
