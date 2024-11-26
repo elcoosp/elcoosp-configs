@@ -1,5 +1,13 @@
 # @elcoosp-configs/lefthook
 
+## 0.0.4
+
+### Patch Changes
+
+- [`ac4098a`](https://github.com/elcoosp/elcoosp-configs/commit/ac4098a45e7fd7e319546dfbb22c1b04eadbfcfd) Thanks [@elcoosp](https://github.com/elcoosp)! - Add cspell config
+
+- [`7660c0c`](https://github.com/elcoosp/elcoosp-configs/commit/7660c0c6b7f5fa624c019bd1ad6150818016947c) Thanks [@elcoosp](https://github.com/elcoosp)! - Update readme
+
 ## 0.0.3
 
 ### Patch Changes
