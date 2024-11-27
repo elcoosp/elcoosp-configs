@@ -69,7 +69,7 @@ Monorepo of tools config files
 
 ## 🎉 Getting started
 
-See screenshot
+Find the tool for which you want a config and browse the available ones
 
 ## 📋 Installation
 

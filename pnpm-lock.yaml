@@ -33,11 +33,7 @@ importers:
         specifier: ^2.1.5
         version: 2.1.6(@types/node@22.10.0)(jiti@1.21.6)(terser@5.36.0)
 
-  packages/biome:
-    devDependencies:
-      '@elcoosp-configs/rslib':
-        specifier: workspace:*
-        version: link:../rslib
+  packages/biome: {}
 
   packages/docusaurus:
     dependencies:
