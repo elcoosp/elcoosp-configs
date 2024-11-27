@@ -9,7 +9,8 @@
     "useIgnoreFile": true
   },
   "formatter": {
-    "indentStyle": "space"
+    "indentStyle": "space",
+    "ignore": ["__snapshots__"]
   },
   "javascript": {
     "formatter": {
