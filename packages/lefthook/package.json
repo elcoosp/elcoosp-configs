@@ -1,6 +1,6 @@
 {
   "name": "@elcoosp-configs/lefthook",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "description": "Presets configs for lefthook",
   "exports": {
@@ -12,7 +12,10 @@
     "access": "public"
   },
   "module": "./dist/index.js",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "scripts": {
     "build": "rslib build",
     "dev": "rslib build --watch",
