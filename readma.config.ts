@@ -23,7 +23,8 @@ const config: types.ReadmeTemplateArgs = {
     about: 'Monorepo of tools config files',
     installation: 'See individual packages',
     acknowledgments: '',
-    gettingStarted: 'Find the tool for which you want a config and browse the available ones',
+    gettingStarted:
+      'Find the tool for which you want a config and browse the available ones',
     roadmap: '',
     usage: '',
   },
