@@ -13,28 +13,20 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "publishConfig": {
     "access": "public"
   },
   "scripts": {
     "build": "rslib build",
-    "check": "biome check --write",
-    "lint": "biome lint --write",
-    "fmt": "biome format --write",
     "dev": "rslib build --watch",
+    "check": "biome check --write",
+    "fmt": "biome format --write",
     "test": "vitest run",
     "test:watch": "vitest run --watch"
   },
   "devDependencies": {
-    "@biomejs/biome": "^1.9.3",
-    "@rslib/core": "^0.1.0",
-    "@elcoosp-configs/rslib": "workspace:*",
-    "@types/node": "^22.9.4",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.5"
+    "@elcoosp-configs/rslib": "workspace:*"
   },
   "dependencies": {
     "title-case": "^4.3.2",

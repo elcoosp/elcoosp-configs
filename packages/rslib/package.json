@@ -19,18 +19,11 @@
   },
   "scripts": {
     "build": "rslib build",
-    "check": "biome check --write",
     "dev": "rslib build --watch",
-    "format": "biome format --write",
+    "check": "biome check --write",
+    "fmt": "biome format --write",
     "test": "vitest run",
-    "fmt": "biome format --write"
-  },
-  "devDependencies": {
-    "@biomejs/biome": "^1.9.3",
-    "@rslib/core": "^0.1.0",
-    "@types/node": "^22.9.4",
-    "typescript": "^5.6.3",
-    "vitest": "^2.1.5"
+    "test:watch": "vitest run --watch"
   },
   "dependencies": {
     "read-pkg": "^9.0.1",
