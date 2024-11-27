@@ -1,4 +1,10 @@
-import { createRsLibConfig } from '@elcoosp-configs/rslib';
 import { defineConfig } from '@rslib/core';
 
-export default defineConfig(async () => createRsLibConfig({ preset: 'dual' }));
+export default defineConfig({
+  lib: [
+    {
+      format: 'esm',
+      syntax: 'es2021',
+    },
+  ],
+});
