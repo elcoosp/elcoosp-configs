@@ -25,9 +25,9 @@
     <br />
     <a href="https://github.com/elcoosp/elcoosp-configs">View Demo</a>
     ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?labels=bug&template=-bug-report--from-readme.md">Report Bug</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
     ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?labels=enhancement&template=feature-request---from-readme.md">Request Feature</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
   </p>
 </div>
 
@@ -56,6 +56,9 @@
 Monorepo of tools config files
 
 ## ✨ Features
+
+- Multiple presets per tool
+- Unified workspace
 
 ## 🎉 Getting started
 

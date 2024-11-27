@@ -24,9 +24,9 @@
     <br />
     <a href="https://github.com/elcoosp/elcoosp-configs">View Demo</a>
     ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?labels=bug&template=-bug-report--from-readme.md">Report Bug</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
     ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?labels=enhancement&template=feature-request---from-readme.md">Request Feature</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
   </p>
 </div>
 
@@ -57,11 +57,14 @@ Monorepo of tools config files
 
 | Package                                            | Description                    |
 | -------------------------------------------------- | ------------------------------ |
-| [@elcoosp-configs/docusaurus](packages/docusaurus) | Presets configs for docusaurus |
-| [@elcoosp-configs/rslib](packages/rslib)           | Presets configs for rslib      |
 | [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook   |
+| [@elcoosp-configs/rslib](packages/rslib)           | Presets configs for rslib      |
+| [@elcoosp-configs/docusaurus](packages/docusaurus) | Presets configs for docusaurus |
 
 ## ✨ Features
+
+- Multiple presets per tool
+- Unified workspace
 
 ## 🎉 Getting started
 

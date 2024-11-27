@@ -17,6 +17,9 @@ const config: types.ReadmeTemplateArgs = {
   images: { logo: 'images/logo.png' },
   sections: {
     projectDescription: 'Monorepo of tools config files',
+    features: `
+- Multiple presets per tool
+- Unified workspace`,
     about: 'Monorepo of tools config files',
     installation: 'See individual packages',
     acknowledgments: '',
@@ -25,8 +28,8 @@ const config: types.ReadmeTemplateArgs = {
     usage: '',
   },
   template: {
-    bugReport: 'bug-report--from-readme',
-    featRequest: 'feature-request---from-readme',
+    bugReport: 'bug-report.yml',
+    featRequest: 'feature-request.yml',
   },
   backToTop: false,
 } as const;
