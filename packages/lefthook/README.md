@@ -111,7 +111,7 @@ All tools that made those configs shareable
 [npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/lefthook.svg?style=for-the-badge
 [npm-version-url]: https://www.npmjs.com/package/@elcoosp-configs/lefthook
 [codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
-[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/@elcoosp-configs/lefthook
+[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/packages/lefthook
 [contributors-shield]: https://img.shields.io/github/contributors/elcoosp/elcoosp-configs.svg?style=for-the-badge
 [contributors-url]: https://github.com/elcoosp/elcoosp-configs/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/elcoosp/elcoosp-configs.svg?style=for-the-badge
