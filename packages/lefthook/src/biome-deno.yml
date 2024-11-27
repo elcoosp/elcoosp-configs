@@ -1,0 +1,10 @@
+extends: ./cspell.yml
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      run: deno run -A npm:@biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+    fmt:
+      run: deno run -A npm:@biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+    lint:
+      run: deno run -A npm:@biomejs/biome lint --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
