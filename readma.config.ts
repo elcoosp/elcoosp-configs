@@ -22,7 +22,7 @@ const config: types.ReadmeTemplateArgs = {
 - Unified workspace`,
     about: 'Monorepo of tools config files',
     installation: 'See individual packages',
-    acknowledgments: '',
+    acknowledgments: 'All tools that made those configs shareable',
     gettingStarted:
       'Find the tool for which you want a config and browse the available ones',
     roadmap: '',

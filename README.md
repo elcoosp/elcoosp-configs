@@ -98,6 +98,8 @@ Project Link: [https://github.com/elcoosp/elcoosp-configs](https://github.com/el
 
 ## 👏 Acknowledgments
 
+All tools that made those configs shareable
+
 <!--MARKDOWN LINKS & IMAGES-- >
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 ![Alt](https://repobeats.axiom.co/api/embed/b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43.svg "Repobeats analytics image")
