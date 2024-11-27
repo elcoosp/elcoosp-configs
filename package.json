@@ -1,26 +1,26 @@
 {
-	"name": "@elcoosp-configs/root",
-	"version": "0.0.0",
-	"packageManager": "pnpm@9.14.2",
-	"scripts": {
-		"build": "turbo run build",
-		"check": "turbo run check",
-		"test": "turbo run test",
-		"lint": "turbo run lint",
-		"fmt": "turbo run fmt",
-		"test:watch": "turbo run test:watch",
-		"publish-packages": "pnpm build && changeset publish",
-		"version-packages": "changeset version && pnpm fmt",
-		"changeset": "changeset"
-	},
-	"devDependencies": {
-		"@biomejs/biome": "^1.9.3",
-		"@changesets/changelog-github": "^0.5.0",
-		"@changesets/cli": "^2.27.10",
-		"@rslib/core": "^0.1.0",
-		"@types/node": "^22.9.4",
-		"vitest": "^2.1.5",
-		"lefthook": "^1.8.4",
-		"turbo": "^2.3.2"
-	}
+  "name": "@elcoosp-configs/root",
+  "version": "0.0.0",
+  "packageManager": "pnpm@9.14.2",
+  "scripts": {
+    "build": "turbo run build",
+    "check": "turbo run check",
+    "test": "turbo run test",
+    "lint": "turbo run lint",
+    "fmt": "turbo run fmt",
+    "test:watch": "turbo run test:watch",
+    "publish-packages": "pnpm build && changeset publish",
+    "version-packages": "changeset version && pnpm fmt",
+    "changeset": "changeset"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.3",
+    "@changesets/changelog-github": "^0.5.0",
+    "@changesets/cli": "^2.27.10",
+    "@rslib/core": "^0.1.0",
+    "@types/node": "^22.9.4",
+    "vitest": "^2.1.5",
+    "lefthook": "^1.8.4",
+    "turbo": "^2.3.2"
+  }
 }
