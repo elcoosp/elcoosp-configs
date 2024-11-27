@@ -16,7 +16,7 @@
     <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
   </a>
   <h3 align="center">Configs</h3>
-  <h4 align="center">@elcoosp-configs/rslib</h4>
+  <h4 align="center">@elcoosp-configs/biome</h4>
   <p align="center">
     Monorepo of tools config files
     <br />
@@ -32,7 +32,7 @@
 </div>
 
 > [!NOTE]
-> You are inside the **@elcoosp-configs/rslib** workspace member package, not the repository entry point
+> You are inside the **@elcoosp-configs/biome** workspace member package, not the repository entry point
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -67,16 +67,16 @@ See screenshot
 ## 📋 Installation
 
 ```sh
-npm add @elcoosp-configs/rslib
+npm add @elcoosp-configs/biome
 ```
 ```sh
-pnpm add @elcoosp-configs/rslib
+pnpm add @elcoosp-configs/biome
 ```
 ```sh
-yarn add @elcoosp-configs/rslib
+yarn add @elcoosp-configs/biome
 ```
 ```sh
-deno add npm:@elcoosp-configs/rslib
+deno add npm:@elcoosp-configs/biome
 ```
 
 ## 🔧 Usage
@@ -106,10 +106,10 @@ Project Link: [https://github.com/elcoosp/elcoosp-configs](https://github.com/el
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 ![Alt](https://repobeats.axiom.co/api/embed/b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43.svg "Repobeats analytics image")
 
-[npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/rslib.svg?style=for-the-badge
-[npm-version-url]: https://www.npmjs.com/package/@elcoosp-configs/rslib
+[npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/biome.svg?style=for-the-badge
+[npm-version-url]: https://www.npmjs.com/package/@elcoosp-configs/biome
 [codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
-[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/@elcoosp-configs/rslib
+[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/@elcoosp-configs/biome
 [contributors-shield]: https://img.shields.io/github/contributors/elcoosp/elcoosp-configs.svg?style=for-the-badge
 [contributors-url]: https://github.com/elcoosp/elcoosp-configs/graphs/contributors
 [forks-shield]: https://img.shields.io/github/forks/elcoosp/elcoosp-configs.svg?style=for-the-badge
