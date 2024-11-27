@@ -19,23 +19,3 @@ exports[`createRsLibConfig 1`] = `
   ],
 }
 `;
-
-exports[`squared 1`] = `
-{
-  "lib": [
-    {
-      "dts": true,
-      "format": "esm",
-      "syntax": "es2021",
-    },
-    {
-      "format": "cjs",
-      "output": {
-        "distPath": {
-          "root": "./dist/cjs",
-        },
-      },
-    },
-  ],
-}
-`;
