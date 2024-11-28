@@ -62,7 +62,7 @@ Monorepo of tools config files
 
 ## 🎉 Getting started
 
-Find the tool for which you want a config and browse the available ones
+Browse the packages list and individually install the config you need
 
 ## 📋 Installation
 

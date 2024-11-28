@@ -57,11 +57,11 @@ Monorepo of tools config files
 
 | Package                                            | Description                    |
 | -------------------------------------------------- | ------------------------------ |
-| [@elcoosp-configs/cspell](packages/cspell)         | Presets configs for cspell     |
 | [@elcoosp-configs/biome](packages/biome)           | Presets configs for biome      |
-| [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook   |
+| [@elcoosp-configs/cspell](packages/cspell)         | Presets configs for cspell     |
 | [@elcoosp-configs/docusaurus](packages/docusaurus) | Presets configs for docusaurus |
 | [@elcoosp-configs/rslib](packages/rslib)           | Presets configs for rslib      |
+| [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook   |
 
 ## ✨ Features
 
@@ -70,7 +70,7 @@ Monorepo of tools config files
 
 ## 🎉 Getting started
 
-Find the tool for which you want a config and browse the available ones
+Browse the packages list and individually install the config you need
 
 ## 📋 Installation
 

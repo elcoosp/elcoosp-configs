@@ -24,7 +24,7 @@ const config: types.ReadmeTemplateArgs = {
     installation: 'See individual packages',
     acknowledgments: 'All tools that made those configs shareable',
     gettingStarted:
-      'Find the tool for which you want a config and browse the available ones',
+      'Browse the packages list and individually install the config you need',
     roadmap: '',
     usage: '',
   },
