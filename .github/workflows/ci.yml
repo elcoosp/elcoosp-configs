@@ -10,16 +10,6 @@ on:
     types: [opened, synchronize]
   workflow_call:
     inputs:
-      test-matrix-os:
-        description: 'Os on which to run the test job, this is a JSON string of string[], will be passed to fromJSON'
-        default: '["ubuntu-latest"]'
-        type: string
-        required: false
-      test-matrix-node:
-        description: 'Node version on which to run the test job, this is a JSON string of string[], will be passed to fromJSON'
-        default: '[20, 22]'
-        type: string
-        required: false
       run-name:
         required: false
         description: 'Name of the workflow'
@@ -35,29 +25,30 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - name: Setup
-        uses: elcoosp/ghca-node-pnpm@v1.1
-      - name: Check
-        run: pnpm check
-      - name: Build
-        run: pnpm build
+      - uses: elcoosp/ghca-node-pnpm@v1.1
+      - run: pnpm check
+      - run: pnpm build
 
   test:
     name: Test
     strategy:
       matrix:
-        os: ${{ fromJSON(inputs.test-matrix-os) }}
-        node: ${{ fromJSON(inputs.test-matrix-node) }}
+        os: [ubuntu-latest]
+        node: [18, 20, 22]
     runs-on: ${{ matrix.os }}
     steps:
-      - name: Setup
-        uses: elcoosp/ghca-node-pnpm@v1.1
+      - uses: elcoosp/ghca-node-pnpm@v1.1
         with:
           node-version: ${{ matrix.node }}
-      - name: Test with coverage
-        run: pnpm test:cov
-      - name: Upload coverage
-        uses: codecov/codecov-action@v5
+      - run: pnpm test
+
+  test-coverage:
+    name: Test coverage
+    runs-on: ubuntu-latest
+    steps:
+      - uses: elcoosp/ghca-node-pnpm@v1.1
+      - run: pnpm test:cov
+      - uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
@@ -66,8 +57,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build, test]
     steps:
-      - name: Setup
-        uses: elcoosp/ghca-node-pnpm@v1.1
+      - uses: elcoosp/ghca-node-pnpm@v1.1
       - name: Release
         id: changesets
         uses: changesets/action@v1
