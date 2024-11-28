@@ -16,38 +16,29 @@ concurrency:
 run-name: ${{inputs.run-name}}
 
 jobs:
-  setup:
-    name: Setup node, pnpm and install
-    timeout-minutes: 15
-    runs-on: ubuntu-latest
-    steps:
-      - name: Check out code
-        uses: actions/checkout@v4
-        with:
-          fetch-depth: 2
-      
-      - name: Setup pnpm
-        uses: pnpm/action-setup@v3
-        with:
-          version: 9
-
-      - name: Setup node.js environment
-        uses: actions/setup-node@v4
-        with:
-          node-version: 22
-          cache: "pnpm"
-
-      - name: Install
-        run: pnpm install --frozen-lockfile
   build:
     name: Build
     runs-on: ubuntu-latest
-    needs: [setup]
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ vars.TURBO_TEAM }}
       FORCE_COLOR: "1"
     steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+      - name: Setup node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: Install
+        run: pnpm install --frozen-lockfile
       - name: Check
         run: pnpm check
       - name: Build
@@ -56,28 +47,56 @@ jobs:
   test:
     name: Test
     runs-on: ubuntu-latest
-    needs: [setup]
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ vars.TURBO_TEAM }}
       FORCE_COLOR: "1"
     steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+      - name: Setup node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: Install
+        run: pnpm install --frozen-lockfile
       - name: Test with coverage
         run: pnpm test:cov
-
       - name: Upload coverage
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
   release:
-    name: Test
+    name: Release
     runs-on: ubuntu-latest
-    needs: [setup, build, test]
+    needs: [build, test]
     env:
       TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
       TURBO_TEAM: ${{ vars.TURBO_TEAM }}
       FORCE_COLOR: "1"
     steps:
+      - name: Check out code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+      - name: Setup node.js environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: "pnpm"
+      - name: Install
+        run: pnpm install --frozen-lockfile
       - name: Release
         id: changesets
         uses: changesets/action@v1
