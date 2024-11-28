@@ -55,7 +55,7 @@ jobs:
   release:
     name: Release
     runs-on: ubuntu-latest
-    needs: [build, test]
+    needs: [build, test, test-coverage]
     steps:
       - uses: elcoosp/ghca-node-pnpm@v1.1
       - name: Release
