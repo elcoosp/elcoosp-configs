@@ -1,5 +1,11 @@
 # @elcoosp-configs/cspell
 
+## 0.0.2
+
+### Patch Changes
+
+- [`77cddcc`](https://github.com/elcoosp/elcoosp-configs/commit/77cddccd52f623486c452d138072a688762bbfdf) Thanks [@elcoosp](https://github.com/elcoosp)! - Update ts-libs list
+
 ## 0.0.1
 
 ### Patch Changes
