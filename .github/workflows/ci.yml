@@ -16,39 +16,50 @@ concurrency:
 run-name: ${{inputs.run-name}}
 
 jobs:
-  build-test-release:
-    name: Build and Test
+  setup:
+    name: Setup node, pnpm and install
     timeout-minutes: 15
     runs-on: ubuntu-latest
-    env:
-      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
-      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
-      FORCE_COLOR: "1"
     steps:
       - name: Check out code
         uses: actions/checkout@v4
         with:
           fetch-depth: 2
-
-      - uses: pnpm/action-setup@v3
-        with:
-          version: 9
-
-      - name: Setup Node.js environment
+      
+      - name: Setup node.js environment
         uses: actions/setup-node@v4
         with:
           node-version: 22
           cache: "pnpm"
 
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v3
+        with:
+          version: 9
+
       - name: Install
         run: pnpm install --frozen-lockfile
-
+  build:
+    name: Build
+    runs-on: ubuntu-latest
+    needs: [setup]
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+      FORCE_COLOR: "1"
+    steps:
       - name: Check
         run: pnpm check
 
-      - name: Build
-        run: pnpm build
-
+  test:
+    name: Test
+    runs-on: ubuntu-latest
+    needs: [setup]
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+      FORCE_COLOR: "1"
+    steps:
       - name: Test with coverage
         run: pnpm test:cov
 
@@ -56,13 +67,19 @@ jobs:
         uses: codecov/codecov-action@v5
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-
+  release:
+    name: Test
+    runs-on: ubuntu-latest
+    needs: [setup, build, test]
+    env:
+      TURBO_TOKEN: ${{ secrets.TURBO_TOKEN }}
+      TURBO_TEAM: ${{ vars.TURBO_TEAM }}
+      FORCE_COLOR: "1"
+    steps:
       - name: Release
         id: changesets
         uses: changesets/action@v1
         with:
-          # title: "chore: release ${{ env.PKG_NAME }}@${{ env.NEW_VERSION }}"
-          # commit: ""
           publish: pnpm publish-packages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
