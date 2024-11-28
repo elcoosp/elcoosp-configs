@@ -1,5 +1,11 @@
 # @elcoosp-configs/lefthook
 
+## 0.0.6
+
+### Patch Changes
+
+- [`7b2dc4d`](https://github.com/elcoosp/elcoosp-configs/commit/7b2dc4dd78eafafe3f7507036d6c938f02cd0eec) Thanks [@elcoosp](https://github.com/elcoosp)! - Publish cspell & add types to package.json
+
 ## 0.0.5
 
 ### Patch Changes
