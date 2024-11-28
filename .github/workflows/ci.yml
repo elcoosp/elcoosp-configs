@@ -14,10 +14,12 @@ on:
         description: 'Os on which to run the test job, this is a JSON string of string[], will be passed to fromJSON'
         default: '["ubuntu-latest"]'
         type: string
+        required: false
       test-matrix-node:
         description: 'Node version on which to run the test job, this is a JSON string of string[], will be passed to fromJSON'
         default: '[20, 22]'
         type: string
+        required: false
       run-name:
         required: false
         description: 'Name of the workflow'
