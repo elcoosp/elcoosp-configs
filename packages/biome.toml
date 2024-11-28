@@ -1,4 +1,0 @@
-# Usage `mkdir biome && cd biome && cargo generate --init -p ../../../templates/packages/mm-rslib/template --name biome --template-values-file ../biome.toml`
-[values]
-scope = "elcoosp-configs"
-description = "Presets configs for biome"

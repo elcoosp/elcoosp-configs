@@ -1,29 +1,29 @@
 {
-  "name": "@elcoosp-configs/lefthook",
-  "version": "0.0.5",
+  "name": "@elcoosp-configs/cspell",
+  "author": "elcoosp <elcoosp@gmail.com>",
+  "version": "0.0.0",
   "type": "module",
-  "description": "Presets configs for lefthook",
+  "description": "Presets configs for cspell",
   "exports": {
     ".": {
       "import": "./dist/index.js"
     }
   },
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "files": ["dist","src"],
   "publishConfig": {
     "access": "public"
   },
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.ts",
-  "files": [
-    "dist",
-    "src"
-  ],
   "scripts": {
     "build": "rslib build",
     "dev": "rslib build --watch",
     "check": "biome check --write",
     "fmt": "biome format --write",
     "test": "vitest run",
-    "test:cov": "vitest run --coverage",
     "test:watch": "vitest run --watch"
+  },
+  "devDependencies": {
+    "@elcoosp-configs/rslib": "2"
   }
 }
