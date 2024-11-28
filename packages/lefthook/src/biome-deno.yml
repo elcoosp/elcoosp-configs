@@ -5,6 +5,7 @@ pre-commit:
     check:
       run: deno run -A npm:@biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     fmt:
-      run: deno run -A npm:@biomejs/biome format --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
+      #  Use deno instead of biome for consistency
+      run: deno fmt {staged_files}
     lint:
       run: deno run -A npm:@biomejs/biome lint --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
