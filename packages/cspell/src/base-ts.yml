@@ -4,6 +4,9 @@ dictionaryDefinitions:
     addWords: true
 dictionaries:
   - ts-libs
+  - typescript
+  - node
+  - npm
 ignorePaths:
   - node_modules
   - pnpm-lock.yaml
