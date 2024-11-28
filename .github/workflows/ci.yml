@@ -10,6 +10,14 @@ on:
     types: [opened, synchronize]
   workflow_call:
     inputs:
+      test-matrix-os:
+        description: 'Os on which to run the test job, this is a string of string[], will be passed to fromJSON'
+        default: '[ubuntu-latest]'
+        type: string
+      test-matrix-node:
+        description: 'Node version on which to run the test job, this is a string of string[], will be passed to fromJSON'
+        default: '[20, 22]'
+        type: string
       run-name:
         required: false
         description: 'Name of the workflow'
@@ -36,8 +44,8 @@ jobs:
     name: Test
     strategy:
       matrix:
-        os: [windows-latest, ubuntu-latest]
-        node: [20, 22]
+        os: ${{ fromJSON(inputs.test-matrix-os) }}
+        node: ${{ fromJSON(inputs.test-matrix-node) }}
     runs-on: ${{ matrix.os }}
     steps:
       - name: Setup
