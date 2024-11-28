@@ -1,9 +1,11 @@
 pnpx
 rslib
 biomejs
-dcarbone
 lefthook
 vitest
 repobeats
-readma
 atrule
+
+@elcoosp-configs
+@elcoosp/templates
+readma

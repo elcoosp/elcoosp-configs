@@ -57,10 +57,11 @@ Monorepo of tools config files
 
 | Package                                            | Description                    |
 | -------------------------------------------------- | ------------------------------ |
+| [@elcoosp-configs/cspell](packages/cspell)         | Presets configs for cspell     |
 | [@elcoosp-configs/biome](packages/biome)           | Presets configs for biome      |
+| [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook   |
 | [@elcoosp-configs/docusaurus](packages/docusaurus) | Presets configs for docusaurus |
 | [@elcoosp-configs/rslib](packages/rslib)           | Presets configs for rslib      |
-| [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook   |
 
 ## ✨ Features
 

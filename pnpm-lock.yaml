@@ -38,6 +38,12 @@ importers:
 
   packages/biome: {}
 
+  packages/cspell:
+    devDependencies:
+      '@elcoosp-configs/rslib':
+        specifier: '2'
+        version: 2.0.3
+
   packages/docusaurus:
     dependencies:
       '@docusaurus/preset-classic':
@@ -1317,6 +1323,9 @@ packages:
   '@docusaurus/utils@3.6.3':
     resolution: {integrity: sha512-0R/FR3bKVl4yl8QwbL4TYFfR+OXBRpVUaTJdENapBGR3YMwfM6/JnhGilWQO8AOwPJGtGoDK7ib8+8UF9f3OZQ==}
     engines: {node: '>=18.0'}
+
+  '@elcoosp-configs/rslib@2.0.3':
+    resolution: {integrity: sha512-lFIyTBY3lQ7bLcFpgIWSuZ13Xma5GDjqP4yjg2Uf1bjRXEFTGpw4eX1xfPjlS5AtWn4weQZ1XzuAkr21L5rhFw==}
 
   '@esbuild/aix-ppc64@0.24.0':
     resolution: {integrity: sha512-WtKdFM7ls47zkKHFVzMz8opM7LkcsIp9amDUBIAWirg70RM71WRSjdILPsY5Uv1D42ZpUfaPILDlfactHgsRkw==}
@@ -8176,6 +8185,11 @@ snapshots:
       - typescript
       - uglify-js
       - webpack-cli
+
+  '@elcoosp-configs/rslib@2.0.3':
+    dependencies:
+      read-pkg: 9.0.1
+      terminal-link: 3.0.0
 
   '@esbuild/aix-ppc64@0.24.0':
     optional: true

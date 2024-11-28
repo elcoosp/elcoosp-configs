@@ -12,22 +12,22 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/elcoosp/templates">
-    <img src="https://raw.githubusercontent.com/elcoosp/templates/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
+  <a href="https://github.com/elcoosp/elcoosp-configs">
+    <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
   </a>
-  <h3 align="center">Templates</h3>
+  <h3 align="center">Configs</h3>
   <h4 align="center">@elcoosp-configs/cspell</h4>
   <p align="center">
-    Templates using [cargo generate](https://cargo-generate.github.io/)
+    Monorepo of tools config files
     <br />
-    <a href="https://templates.vercel.app/"><strong>📖 Explore the docs »</strong></a>
+    <a href="https://elcoosp-configs.vercel.app/"><strong>📖 Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/elcoosp/templates">View Demo</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs">View Demo</a>
     ·
-    <a href="https://github.com/elcoosp/templates/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
     ·
-    <a href="https://github.com/elcoosp/templates/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
+    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
   </p>
 </div>
 
@@ -53,15 +53,16 @@
 
 ## 💡 About the project
 
-Monorepo of templates
+Monorepo of tools config files
 
 ## ✨ Features
 
-- Rslib monorepo member
+- Multiple presets per tool
+- Unified workspace
 
 ## 🎉 Getting started
 
-See installation
+Find the tool for which you want a config and browse the available ones
 
 ## 📋 Installation
 
@@ -82,7 +83,7 @@ deno add npm:@elcoosp-configs/cspell
 
 ## 🚀 Roadmap
 
-See the [open issues](https://github.com/elcoosp/templates/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/elcoosp/elcoosp-configs/issues) for a full list of proposed features (and known issues).
 
 
 ## 💻 Contributing
@@ -97,9 +98,11 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 elcoosp - [@elcoosp](https://twitter.com/elcoosp) - [elcoosp@gmail.com](elcoosp@gmail.com)
 
-Project Link: [https://github.com/elcoosp/templates](https://github.com/elcoosp/templates)
+Project Link: [https://github.com/elcoosp/elcoosp-configs](https://github.com/elcoosp/elcoosp-configs)
 
 ## 👏 Acknowledgments
+
+All tools that made those configs shareable
 
 <!--MARKDOWN LINKS & IMAGES-- >
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
@@ -107,17 +110,17 @@ Project Link: [https://github.com/elcoosp/templates](https://github.com/elcoosp/
 
 [npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/cspell.svg?style=for-the-badge
 [npm-version-url]: https://www.npmjs.com/package/@elcoosp-configs/cspell
-[codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/templates/main.svg?style=for-the-badge
-[codecov-url]: https://codecov.io/github/elcoosp/templates/tree/main/@elcoosp-configs/cspell
-[contributors-shield]: https://img.shields.io/github/contributors/elcoosp/templates.svg?style=for-the-badge
-[contributors-url]: https://github.com/elcoosp/templates/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/elcoosp/templates.svg?style=for-the-badge
-[forks-url]: https://github.com/elcoosp/templates/network/members
-[stargazers-shield]: https://img.shields.io/github/stars/elcoosp/templates.svg?style=for-the-badge
-[stargazers-url]: https://github.com/elcoosp/templates/stargazers
-[commit-activity-shield]: https://img.shields.io/github/commit-activity/w/elcoosp/templates.svg?style=for-the-badge
-[commit-activity-url]: https://github.com/elcoosp/templates/commits
-[branch-action-runs-shield]: https://img.shields.io/github/check-runs/elcoosp/templates/main.svg?style=for-the-badge
-[branch-action-runs-url]: https://github.com/elcoosp/templates/actions?query=branch%3Amain
-[license-shield]: https://img.shields.io/github/license/elcoosp/templates.svg?style=for-the-badge
-[license-url]: https://github.com/elcoosp/templates/blob/master/LICENSE.txt
+[codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
+[codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/packages/cspell
+[contributors-shield]: https://img.shields.io/github/contributors/elcoosp/elcoosp-configs.svg?style=for-the-badge
+[contributors-url]: https://github.com/elcoosp/elcoosp-configs/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/elcoosp/elcoosp-configs.svg?style=for-the-badge
+[forks-url]: https://github.com/elcoosp/elcoosp-configs/network/members
+[stargazers-shield]: https://img.shields.io/github/stars/elcoosp/elcoosp-configs.svg?style=for-the-badge
+[stargazers-url]: https://github.com/elcoosp/elcoosp-configs/stargazers
+[commit-activity-shield]: https://img.shields.io/github/commit-activity/w/elcoosp/elcoosp-configs.svg?style=for-the-badge
+[commit-activity-url]: https://github.com/elcoosp/elcoosp-configs/commits
+[branch-action-runs-shield]: https://img.shields.io/github/check-runs/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
+[branch-action-runs-url]: https://github.com/elcoosp/elcoosp-configs/actions?query=branch%3Amain
+[license-shield]: https://img.shields.io/github/license/elcoosp/elcoosp-configs.svg?style=for-the-badge
+[license-url]: https://github.com/elcoosp/elcoosp-configs/blob/master/LICENSE.txt
