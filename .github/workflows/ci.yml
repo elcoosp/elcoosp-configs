@@ -26,7 +26,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Setup
-        uses: elcoosp/ghca-node-pnpm@v1
+        uses: elcoosp/ghca-node-pnpm@v1.1
       - name: Check
         run: pnpm check
       - name: Build
@@ -41,7 +41,7 @@ jobs:
     runs-on: ${{ matrix.os }}
     steps:
       - name: Setup
-        uses: elcoosp/ghca-node-pnpm@v1
+        uses: elcoosp/ghca-node-pnpm@v1.1
         with:
           node-version: ${{ matrix.node }}
       - name: Test with coverage
@@ -57,7 +57,7 @@ jobs:
     needs: [build, test]
     steps:
       - name: Setup
-        uses: elcoosp/ghca-node-pnpm@v1
+        uses: elcoosp/ghca-node-pnpm@v1.1
       - name: Release
         id: changesets
         uses: changesets/action@v1
