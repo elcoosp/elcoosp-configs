@@ -1,7 +1,7 @@
 {
   "name": "@elcoosp-configs/cspell",
   "author": "elcoosp <elcoosp@gmail.com>",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "type": "module",
   "description": "Presets configs for cspell",
   "exports": {
@@ -11,7 +11,10 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist", "src"],
+  "files": [
+    "dist",
+    "src"
+  ],
   "publishConfig": {
     "access": "public"
   },
