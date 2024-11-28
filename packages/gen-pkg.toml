@@ -1,4 +1,4 @@
 # Usage `mkdir biome && cd biome && cargo generate --init -p ../../../templates/packages/mm-rslib/template --name biome --template-values-file ../gen-pkg.toml`
 [values]
 scope = "elcoosp-configs"
-description = "Presets configs for cspell"
+description = "Presets configs for vitest"

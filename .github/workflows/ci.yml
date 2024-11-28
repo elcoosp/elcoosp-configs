@@ -1,15 +1,22 @@
-name: CI
-concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
-  cancel-in-progress: true
 on:
   push:
     branches: '**'
   pull_request:
     types: [opened, synchronize]
+  workflow_call:
+    inputs:
+      run-name:
+        required: false
+        description: 'Name of the workflow'
+        type: string
+name: CI
+concurrency:
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
+  cancel-in-progress: true
+run-name: ${{inputs.run-name}}
 
 jobs:
-  build:
+  build-test-release:
     name: Build and Test
     timeout-minutes: 15
     runs-on: ubuntu-latest
