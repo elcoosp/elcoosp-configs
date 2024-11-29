@@ -1,5 +1,11 @@
 # @elcoosp-configs/cspell
 
+## 0.0.4
+
+### Patch Changes
+
+- [`2439599`](https://github.com/elcoosp/elcoosp-configs/commit/2439599ef9ce1edb94e6529dae51120af74c2a82) Thanks [@elcoosp](https://github.com/elcoosp)! - Add some vscode extensions to allowed words
+
 ## 0.0.3
 
 ### Patch Changes

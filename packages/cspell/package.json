@@ -1,7 +1,7 @@
 {
   "name": "@elcoosp-configs/cspell",
   "author": "elcoosp <elcoosp@gmail.com>",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "type": "module",
   "description": "Presets configs for cspell",
   "exports": {
