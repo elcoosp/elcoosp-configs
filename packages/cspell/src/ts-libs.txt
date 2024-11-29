@@ -46,3 +46,12 @@ vitest
 webidl
 whatwg
 ghca
+sissel
+rhai
+
+denoland
+gruntfuggly
+wayou
+pflannery
+versionLens
+eamodio
