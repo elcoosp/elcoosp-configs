@@ -1,7 +1,7 @@
 {
   "name": "@elcoosp-configs/cspell",
   "author": "elcoosp <elcoosp@gmail.com>",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "type": "module",
   "description": "Presets configs for cspell",
   "exports": {
@@ -27,6 +27,6 @@
     "test:watch": "vitest run --watch"
   },
   "devDependencies": {
-    "@elcoosp-configs/rslib": "2"
+    "@elcoosp-configs/rslib": "2.0.4"
   }
 }

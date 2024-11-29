@@ -1,5 +1,11 @@
 # @elcoosp-configs/docusaurus
 
+## 1.1.2
+
+### Patch Changes
+
+- [`72fbd07`](https://github.com/elcoosp/elcoosp-configs/commit/72fbd07da2009c8f3fe298b1b13dc36143f22a43) Thanks [@elcoosp](https://github.com/elcoosp)! - Cspell additions
+
 ## 1.1.1
 
 ### Patch Changes
