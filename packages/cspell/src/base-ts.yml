@@ -10,4 +10,5 @@ dictionaries:
 ignorePaths:
   - node_modules
   - pnpm-lock.yaml
+  - "*.cast"
   - ./ts-libs.txt
