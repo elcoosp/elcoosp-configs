@@ -34,6 +34,10 @@ jobs:
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm check
       - run: pnpm build
+      - uses: actions/upload-artifact@v4
+        with:
+          name: dist
+          path: dist
 
   test:
     name: Test
@@ -67,6 +71,10 @@ jobs:
     needs: [build, test, test-coverage]
     steps:
       - uses: elcoosp/ghca-node-pnpm@v1.3
+      - uses: actions/download-artifact@v4
+        with:
+          name: dist
+          path: dist
       - name: Release
         id: changesets
         uses: changesets/action@v1
