@@ -1,5 +1,30 @@
 <a id="readme-top"></a>
-<!-- PROJECT SHIELDS -->
+  <!-- PROJECT SHIELDS -->
+  
+  <!-- PROJECT LOGO -->
+  <br />
+  <div align="center">
+  <a href="https://github.com/elcoosp/elcoosp-configs">
+  <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
+  </a>
+  <h3 align="center">Configs</h3>
+  
+  <p align="center">
+  Monorepo of tools config files
+  <br />
+  <a href="https://elcoosp-configs.vercel.app/"><strong>📖 Explore the docs »</strong></a>
+  <br />
+  <br />
+  <a href="https://github.com/elcoosp/elcoosp-configs">View Demo</a>
+  ·
+  <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
+  ·
+  <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
+    </p>
+    </div>
+
+
+      
 [![Codecov][codecov-shield]][codecov-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -7,28 +32,6 @@
 [![Commit activity][commit-activity-shield]][commit-activity-url]
 [![Branch action runs][branch-action-runs-shield]][branch-action-runs-url]
 [![License][license-shield]][license-url]
-
-<!-- PROJECT LOGO -->
-<br />
-<div align="center">
-  <a href="https://github.com/elcoosp/elcoosp-configs">
-    <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
-  </a>
-  <h3 align="center">Configs</h3>
-  
-  <p align="center">
-    Monorepo of tools config files
-    <br />
-    <a href="https://elcoosp-configs.vercel.app/"><strong>📖 Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/elcoosp/elcoosp-configs">View Demo</a>
-    ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
-    ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
-  </p>
-</div>
 
 <!-- TABLE OF CONTENTS -->
 <details>
@@ -89,7 +92,7 @@ Any contributions you make are **greatly appreciated**.
 
 ## 📄 License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the MIT License. See [`LICENSE.txt`](./LICENSE.txt) for more information.
 
 ## 📨 Contact
 
