@@ -27,6 +27,6 @@
     "test:watch": "vitest run --watch"
   },
   "devDependencies": {
-    "@elcoosp-configs/rslib": "2.0.4"
+    "@elcoosp-configs/rslib": "workspace:*"
   }
 }
