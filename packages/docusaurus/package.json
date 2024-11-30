@@ -1,7 +1,7 @@
 {
   "name": "@elcoosp-configs/docusaurus",
   "description": "Presets configs for docusaurus",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "type": "module",
   "main": "./dist/cjs/index.cjs",
   "exports": {
@@ -13,7 +13,9 @@
   },
   "module": "./dist/index.js",
   "types": "./dist/index.d.ts",
-  "files": ["dist"],
+  "files": [
+    "dist"
+  ],
   "publishConfig": {
     "access": "public"
   },
