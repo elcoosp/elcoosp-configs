@@ -6,5 +6,5 @@ pre-commit:
 commit-msg:
   parallel: true
   commands:
-    commitlint:
-      run: pnpx cspell --edit .git/COMMIT_EDITMSG
+    cspell:
+      run: pnpx cspell .git/COMMIT_EDITMSG
