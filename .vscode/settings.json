@@ -1,3 +1,6 @@
 {
-	"deno.enablePaths": ["readma.config.ts"]
+  "deno.enablePaths": ["readma.config.ts"],
+  "yaml.schemas": {
+    "https://json.schemastore.org/lefthook.json": "packages/lefthook/src/**.yml"
+  }
 }

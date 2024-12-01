@@ -1,4 +1,4 @@
-extends: ./cspell.yml
+extends: [./cspell.yml]
 commit-msg:
   parallel: true
   commands:
