@@ -1,6 +1,6 @@
-# remotes:
-#   - git_url: git@github.com:elcoosp/elcoosp-configs
-#     ref: main
-#     configs:
-#       - packages/lefthook/src/biome-node.yml
-# extends: [biome-node]
+remotes:
+  - git_url: git@github.com:elcoosp/elcoosp-configs
+    ref: main
+    configs:
+      - packages/lefthook/src/biome-node.yml
+extends: [biome-node]
