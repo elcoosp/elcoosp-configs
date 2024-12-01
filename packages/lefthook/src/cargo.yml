@@ -5,4 +5,4 @@ pre-commit:
     check:
       run: cargo fix
     fmt:
-      run: rustfmt {staged_files}
+      run: cargo fmt
