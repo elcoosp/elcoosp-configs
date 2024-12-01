@@ -55,3 +55,4 @@ pflannery
 versionLens
 eamodio
 EDITMSG
+fmt
