@@ -3,3 +3,8 @@ pre-commit:
   commands:
     cspell:
       run: pnpx cspell {staged_files}
+commit-msg:
+  parallel: true
+  commands:
+    commitlint:
+      run: pnpx cspell --edit .git/COMMIT_EDITMSG

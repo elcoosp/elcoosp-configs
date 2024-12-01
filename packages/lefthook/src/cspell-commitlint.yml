@@ -2,5 +2,6 @@ extends: ./cspell.yml
 commit-msg:
   parallel: true
   commands:
+    # https://keisukeyamashita.github.io/commitlint-rs/
     commitlint:
       run: commitlint --edit
