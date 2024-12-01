@@ -3,6 +3,6 @@ pre-commit:
   parallel: true
   commands:
     check:
-      run: cargo fix
+      run: cargo fix --allow-staged
     fmt:
       run: cargo fmt
