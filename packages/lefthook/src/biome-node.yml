@@ -2,5 +2,7 @@ extends: ./cspell.yml
 pre-commit:
   parallel: true
   commands:
+    commitlint:
+      run: commitlint --edit {1}
     check:
       run: pnpx @biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
