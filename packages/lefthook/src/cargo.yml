@@ -1,0 +1,8 @@
+extends: [./cspell-commitlint.yml]
+pre-commit:
+  parallel: true
+  commands:
+    check:
+      run: cargo fix
+    fmt:
+      run: rustfmt {staged_files}
