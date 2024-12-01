@@ -1,9 +1,7 @@
-extends: ./cspell.yml
+extends: ./cspell-commitlint.yml
 pre-commit:
   parallel: true
   commands:
-    commitlint
-      run: commitlint --edit {1}
     check:
       run: deno run -A npm:@biomejs/biome check --write --no-errors-on-unmatched --files-ignore-unknown=true {staged_files}
     fmt:

@@ -1,0 +1,6 @@
+extends: ./cspell.yml
+commit-msg:
+  parallel: true
+  commands:
+    commitlint:
+      run: commitlint --edit {1}
