@@ -1,22 +1,18 @@
 {
-	"deno.enablePaths": [
-		"readma.config.ts"
-	],
-	"json.schemas": [
-		{
-			"fileMatch": [
-				"packages/biome/src/**.json"
-			],
-			"url": "https://biomejs.dev/schemas/1.9.2/schema.json"
-		}
-	],
-	"yaml.schemas": {
-		"https://raw.githubusercontent.com/streetsidesoftware/cspell/refs/heads/main/packages/cspell-types/cspell.schema.json": [
-			"packages/cspell/src/**.yml"
-		],
-		"https://json.schemastore.org/lefthook.json": [
-			"packages/lefthook/src/**.yml",
-			"lefthook.yml"
-		]
-	}
+  "deno.enablePaths": ["readma.config.ts"],
+  "json.schemas": [
+    {
+      "fileMatch": ["packages/biome/src/**.json"],
+      "url": "https://biomejs.dev/schemas/1.9.2/schema.json"
+    }
+  ],
+  "yaml.schemas": {
+    "https://raw.githubusercontent.com/streetsidesoftware/cspell/refs/heads/main/packages/cspell-types/cspell.schema.json": [
+      "packages/cspell/src/**.yml"
+    ],
+    "https://json.schemastore.org/lefthook.json": [
+      "packages/lefthook/src/**.yml",
+      "lefthook.yml"
+    ]
+  }
 }
