@@ -3,5 +3,4 @@ remotes:
     ref: main
     configs:
       - packages/lefthook/src/biome-node.yml
-extends:
-  - biome-node
+extends: [biome-node]
