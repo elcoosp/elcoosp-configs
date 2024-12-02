@@ -1,5 +1,11 @@
 # @elcoosp-configs/cspell
 
+## 0.0.6
+
+### Patch Changes
+
+- [`3fe43cb`](https://github.com/elcoosp/elcoosp-configs/commit/3fe43cbc793c27bc930301d2165e24c2c68d5ff9) Thanks [@elcoosp](https://github.com/elcoosp)! - Add words
+
 ## 0.0.5
 
 ### Patch Changes
