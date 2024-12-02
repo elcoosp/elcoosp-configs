@@ -56,3 +56,5 @@ versionLens
 eamodio
 EDITMSG
 fmt
+commitlint
+commitlintrc
