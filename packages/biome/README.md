@@ -44,9 +44,9 @@
    <li><a href="#usage">🔧 Usage</a></li>
    <li><a href="#roadmap">🚀 Roadmap</a></li>
    <li><a href="#contributing">💻 Contributing</a></li>
-   <li><a href="#license">📄 License</a></li>
    <li><a href="#contact">📨 Contact</a></li>
    <li><a href="#acknowledgments">👏 Acknowledgments</a></li>
+   <li><a href="#license">📄 License</a></li>
   </ol>
 </details>
 
@@ -92,10 +92,6 @@ See the [open issues](https://github.com/elcoosp/elcoosp-configs/issues) for a f
 
 Any contributions you make are **greatly appreciated**.
 
-## 📄 License
-
-Distributed under the MIT License. See [`LICENSE.txt`](./LICENSE.txt) for more information.
-
 ## 📨 Contact
 
 elcoosp - [@elcoosp](https://twitter.com/elcoosp) - [elcoosp@gmail.com](elcoosp@gmail.com)
@@ -109,10 +105,14 @@ All tools that made those configs shareable
 <!--MARKDOWN LINKS & IMAGES-- >
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
 ![Alt](https://repobeats.axiom.co/api/embed/b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43.svg "Repobeats analytics image")
+## 📄 License
 
-[npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/biome.svg?style=for-the-badge
+<sup> Licensed under <a href="https://github.com/elcoosp/elcoosp-configs/blob/master/LICENSE-MIT">MIT license</a></sup>
+
+
+[npm-version-shield]: https://img.shields.io/npm/v/@elcoosp-configs/biome.svg?style=for-the-badge&logo=npm&logoColor=f5f5f5
 [npm-version-url]: https://www.npmjs.com/package/@elcoosp-configs/biome
-[codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
+[codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge&logo=codecov&logoColor=f5f5f5
 [codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main/packages/biome
 [contributors-shield]: https://img.shields.io/github/contributors/elcoosp/elcoosp-configs.svg?style=for-the-badge
 [contributors-url]: https://github.com/elcoosp/elcoosp-configs/graphs/contributors
@@ -122,7 +122,7 @@ All tools that made those configs shareable
 [stargazers-url]: https://github.com/elcoosp/elcoosp-configs/stargazers
 [commit-activity-shield]: https://img.shields.io/github/commit-activity/w/elcoosp/elcoosp-configs.svg?style=for-the-badge
 [commit-activity-url]: https://github.com/elcoosp/elcoosp-configs/commits
-[branch-action-runs-shield]: https://img.shields.io/github/check-runs/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
+[branch-action-runs-shield]: https://img.shields.io/github/check-runs/elcoosp/elcoosp-configs/main.svg?style=for-the-badge&logo=githubactions&logoColor=f5f5f5
 [branch-action-runs-url]: https://github.com/elcoosp/elcoosp-configs/actions?query=branch%3Amain
 [license-shield]: https://img.shields.io/github/license/elcoosp/elcoosp-configs.svg?style=for-the-badge
 [license-url]: https://github.com/elcoosp/elcoosp-configs/blob/master/LICENSE.txt
