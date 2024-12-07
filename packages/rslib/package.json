@@ -1,6 +1,6 @@
 {
   "name": "@elcoosp-configs/rslib",
-  "version": "2.0.4",
+  "version": "2.0.5",
   "type": "module",
   "description": "Presets configs for rslib",
   "main": "./dist/cjs/index.cjs",

@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 2.0.5
+
+### Patch Changes
+
+- [`af9c0a6`](https://github.com/elcoosp/elcoosp-configs/commit/af9c0a6383483778fc0127fec831d6393720b786) Thanks [@elcoosp](https://github.com/elcoosp)! - Fix ci not including dist files before publish
+
 ## 2.0.4
 
 ### Patch Changes
