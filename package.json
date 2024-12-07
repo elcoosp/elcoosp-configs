@@ -10,7 +10,7 @@
     "fmt": "turbo run fmt",
     "test:watch": "turbo run test:watch",
     "test:cov": "turbo run test:cov",
-    "ci:publish": "changeset publish",
+    "ci:publish": "pnpm build && changeset publish",
     "ci:version": "changeset version",
     "changeset": "changeset"
   },

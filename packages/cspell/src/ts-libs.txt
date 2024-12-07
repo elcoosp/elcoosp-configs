@@ -58,3 +58,4 @@ EDITMSG
 fmt
 commitlint
 commitlintrc
+tauri
