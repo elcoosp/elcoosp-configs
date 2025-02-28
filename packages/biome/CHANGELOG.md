@@ -1,5 +1,11 @@
 # @elcoosp-configs/biome
 
+## 0.0.4
+
+### Patch Changes
+
+- [`cdd6547`](https://github.com/elcoosp/elcoosp-configs/commit/cdd6547be1d49ffb19dedb355f75fd661cd51cde) Thanks [@elcoosp](https://github.com/elcoosp)! - Node & pnpm update
+
 ## 0.0.3
 
 ### Patch Changes
