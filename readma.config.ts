@@ -19,6 +19,7 @@ const config: types.ReadmeTemplateArgs = {
     projectDescription: 'Monorepo of tools config files',
     features: `
 - Multiple presets per tool
+- Lefthook composable presets
 - Unified workspace`,
     about: 'Monorepo of tools config files',
     installation: 'See individual packages',
