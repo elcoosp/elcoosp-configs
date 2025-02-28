@@ -4,4 +4,4 @@ commit-msg:
   commands:
     # https://keisukeyamashita.github.io/commitlint-rs/
     commitlint:
-      run: commitlint --edit
+      run: commitlint --edit ./.git/COMMIT_EDITMSG
