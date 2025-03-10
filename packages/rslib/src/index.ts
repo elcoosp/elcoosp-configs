@@ -5,11 +5,12 @@ import { readPackage } from 'read-pkg';
 import terminalLink from 'terminal-link';
 export type Config = {
   preset: 'dual';
+  bundle?: boolean;
 };
 const presets = {
-  dual: async () => {
+  dual: async ({ bundle }: Config) => {
     const pkg = await readPackage();
-    const cjsOutDistPathRoot = './dist/cjs' as const;
+    const cjsOutDistPathRoot = './dist/cjs';
     const expectedMain = `${cjsOutDistPathRoot}/index.cjs` as const;
 
     const pkgMainLink = terminalLink(
@@ -35,9 +36,11 @@ const presets = {
           format: 'esm',
           syntax: 'es2021',
           dts: true,
+          bundle,
         },
         {
           format: 'cjs',
+          bundle,
           output: {
             distPath: {
               root: cjsOutDistPathRoot,
@@ -47,10 +50,14 @@ const presets = {
       ],
     };
   },
-} as const satisfies Record<Config['preset'], () => Promise<RslibConfig>>;
+} as const satisfies Record<
+  Config['preset'],
+  (config: Config) => Promise<RslibConfig>
+>;
 export async function createRsLibConfig({
   preset,
+  bundle = true,
 }: Config): Promise<RslibConfig> {
   // Should not call defineConfig otherwise build fail
-  return await presets[preset]();
+  return await presets[preset]({ bundle, preset });
 }
