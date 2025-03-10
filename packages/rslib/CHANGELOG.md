@@ -1,5 +1,11 @@
 # @elcoosp-configs/rslib
 
+## 2.1.0
+
+### Minor Changes
+
+- [`42d23c9`](https://github.com/elcoosp/elcoosp-configs/commit/42d23c97b360304fa954af76f5aa6479fce54569) Thanks [@elcoosp](https://github.com/elcoosp)! - feat(rslib): add bundle config field
+
 ## 2.0.6
 
 ### Patch Changes
