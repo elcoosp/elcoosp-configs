@@ -4,11 +4,13 @@ exports[`createRsLibConfig 1`] = `
 {
   "lib": [
     {
+      "bundle": true,
       "dts": true,
       "format": "esm",
       "syntax": "es2021",
     },
     {
+      "bundle": true,
       "format": "cjs",
       "output": {
         "distPath": {
