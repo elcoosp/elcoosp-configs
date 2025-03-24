@@ -5,7 +5,7 @@ concurrency:
 run-name: ${{inputs.run-name}}
 on:
   push:
-    branches: "**"
+    branches: [main]
   pull_request:
     types: [opened, synchronize]
   workflow_call:
