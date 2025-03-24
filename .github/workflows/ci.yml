@@ -29,7 +29,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: elcoosp/ghca-node-pnpm@v1.9
+      - uses: elcoosp/ghca-node-pnpm@v1.10
         with:
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm check
