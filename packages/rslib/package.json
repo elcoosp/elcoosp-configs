@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "read-pkg": "^9.0.1",
-    "@rslib/core": "^0.5.5",
+    "@rslib/core": "^0.6.0",
     "terminal-link": "^4.0.0"
   }
 }
