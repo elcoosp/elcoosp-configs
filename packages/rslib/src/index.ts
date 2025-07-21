@@ -17,7 +17,7 @@ const presets = {
       `${pkg.name} package.json \`main\` field`,
       `file://${path.join('package.json')}`,
     );
-    const pkgExportsRequireLink = terminalLink(
+    const _pkgExportsRequireLink = terminalLink(
       `${pkg.name} package.json \`exports["."].require\` field`,
       `file://${path.join('package.json')}`,
     );
