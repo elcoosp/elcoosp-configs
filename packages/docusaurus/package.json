@@ -29,7 +29,8 @@
     "test:watch": "vitest run --watch"
   },
   "devDependencies": {
-    "@elcoosp-configs/rslib": "workspace:*"
+    "@elcoosp-configs/rslib": "workspace:*",
+    "typescript": "5.9.3"
   },
   "dependencies": {
     "title-case": "^4.3.2",
