@@ -21,7 +21,7 @@
     "@rslib/core": "^0.16.0",
     "@types/node": "^24.0.15",
     "@vitest/coverage-v8": "^4.0.0",
-    "lefthook": "^1.12.2",
+    "lefthook": "^2.0.0",
     "turbo": "^2.5.5",
     "vitest": "^4.0.0"
   }
