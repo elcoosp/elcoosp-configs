@@ -29,7 +29,7 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
-      - uses: elcoosp/ghca-node-pnpm@v1.10
+      - uses: elcoosp/ghca-node-pnpm@v1.11
         with:
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm check
@@ -47,7 +47,7 @@ jobs:
         node: [18, 20]
     runs-on: ${{ matrix.os }}
     steps:
-      - uses: elcoosp/ghca-node-pnpm@v1.10
+      - uses: elcoosp/ghca-node-pnpm@v1.11
         with:
           node-version: ${{ matrix.node }}
           deno-enabled: ${{ inputs.deno-enabled }}
@@ -57,7 +57,7 @@ jobs:
     name: Test coverage
     runs-on: ubuntu-latest
     steps:
-      - uses: elcoosp/ghca-node-pnpm@v1.10
+      - uses: elcoosp/ghca-node-pnpm@v1.11
         with:
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm test:cov
@@ -70,7 +70,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [build, test, test-coverage]
     steps:
-      - uses: elcoosp/ghca-node-pnpm@v1.10
+      - uses: elcoosp/ghca-node-pnpm@v1.11
       - uses: actions/download-artifact@v5
         with:
           name: dist

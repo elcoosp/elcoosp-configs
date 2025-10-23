@@ -1,7 +1,6 @@
 import path from 'node:path';
 import type { RslibConfig } from '@rslib/core';
 import { readPackage } from 'read-pkg';
-// @ts-ignore
 import terminalLink from 'terminal-link';
 export type Config = {
   preset: 'dual';

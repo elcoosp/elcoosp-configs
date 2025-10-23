@@ -27,7 +27,7 @@ oxlint
 parseargs
 pathval
 pkgjs
-pnpx
+pnpm dlx
 readma
 repobeats
 reusify

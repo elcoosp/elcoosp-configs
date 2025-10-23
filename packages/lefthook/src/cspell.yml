@@ -2,9 +2,9 @@ pre-commit:
   parallel: true
   commands:
     cspell:
-      run: pnpx cspell {staged_files}
+      run: pnpm dlx cspell {staged_files}
 commit-msg:
   parallel: true
   commands:
     cspell:
-      run: pnpx cspell .git/COMMIT_EDITMSG
+      run: pnpm dlx cspell .git/COMMIT_EDITMSG
