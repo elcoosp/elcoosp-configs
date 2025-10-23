@@ -71,7 +71,7 @@ jobs:
     needs: [build, test, test-coverage]
     steps:
       - uses: elcoosp/ghca-node-pnpm@v1.10
-      - uses: actions/download-artifact@v4
+      - uses: actions/download-artifact@v5
         with:
           name: dist
       - name: Release
