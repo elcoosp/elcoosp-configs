@@ -34,8 +34,8 @@
   "dependencies": {
     "title-case": "^4.3.2",
     "deepmerge-ts": "^7.1.5",
-    "@docusaurus/preset-classic": "3.8.1",
-    "@docusaurus/types": "3.8.1",
+    "@docusaurus/preset-classic": "3.9.2",
+    "@docusaurus/types": "3.9.2",
     "prism-react-renderer": "^2.4.1"
   }
 }
