@@ -51,6 +51,7 @@ jobs:
         with:
           node-version: ${{ matrix.node }}
           deno-enabled: ${{ inputs.deno-enabled }}
+      - run: pnpm i
       - run: pnpm test
 
   test-coverage:
