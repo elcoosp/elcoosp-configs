@@ -61,7 +61,7 @@ jobs:
         with:
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm test:cov
-      - uses: codecov/codecov-action@v5
+      - uses: codecov/codecov-action@v6
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
 
