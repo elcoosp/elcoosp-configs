@@ -1,8 +1,5 @@
 packages:
   - packages/**
-onlyBuiltDependencies:
-  - '@biomejs/biome'
-  - core-js
-  - core-js-pure
-  - esbuild
-  - lefthook
+allowBuilds:
+  core-js: false
+  lefthook: true
