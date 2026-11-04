@@ -1,5 +1,5 @@
 <a id="readme-top"></a>
-<!-- PROJECT SHIELDS -->
+
 [![Codecov][codecov-shield]][codecov-url]
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -8,103 +8,76 @@
 [![Branch action runs][branch-action-runs-shield]][branch-action-runs-url]
 [![License][license-shield]][license-url]
 
-<!-- PROJECT LOGO -->
-<br />
 <div align="center">
   <a href="https://github.com/elcoosp/elcoosp-configs">
     <img src="https://raw.githubusercontent.com/elcoosp/elcoosp-configs/HEAD/images/logo.png" style="max-height: 200px; object-fit: contain;" alt="Logo">
   </a>
   <h3 align="center">Configs</h3>
-  
   <p align="center">
-    Monorepo of tools config files
-    <br />
-    <a href="https://elcoosp-configs.vercel.app/"><strong>📖 Explore the docs »</strong></a>
-    <br />
-    <br />
-    <a href="https://github.com/elcoosp/elcoosp-configs">View Demo</a>
-    ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp">Report Bug</a>
-    ·
-    <a href="https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp">Request Feature</a>
+    Monorepo of shareable tool configuration presets
   </p>
 </div>
 
-<!-- TABLE OF CONTENTS -->
-<details>
-  <summary>Table of contents</summary>
-  <ol>
-   <li><a href="#about-the-project">💡 About the project</a></li>
-   <li><a href="#features">✨ Features</a></li>
-   <li><a href="#getting-started">🎉 Getting started</a></li>
-   <li><a href="#installation">📋 Installation</a></li>
-   <li><a href="#usage">🔧 Usage</a></li>
-   <li><a href="#roadmap">🚀 Roadmap</a></li>
-   <li><a href="#contributing">💻 Contributing</a></li>
-   <li><a href="#license">📄 License</a></li>
-   <li><a href="#contact">📨 Contact</a></li>
-   <li><a href="#acknowledgments">👏 Acknowledgments</a></li>
-  </ol>
-</details>
+## About the project
 
-## 💡 About the project
+This repository is a pnpm workspace that publishes reusable configuration
+presets for common web development tools. Each preset lives in its own
+workspace package, is versioned and released independently with changesets,
+and is consumed as a regular npm dependency.
 
-Monorepo of tools config files
+| Package                                            | Description                      |
+| -------------------------------------------------- | -------------------------------- |
+| [@elcoosp-configs/biome](packages/biome)           | Presets configs for biome        |
+| [@elcoosp-configs/cspell](packages/cspell)         | Presets configs for cspell       |
+| [@elcoosp-configs/docusaurus](packages/docusaurus) | Presets configs for docusaurus   |
+| [@elcoosp-configs/lefthook](packages/lefthook)     | Presets configs for lefthook     |
+| [@elcoosp-configs/rslib](packages/rslib)           | Presets configs for rslib        |
 
-
-> [!TIP]
-> You are inside the entry point of **elcoosp-configs** workspace, here is a list of available packages
-
-| Package                                            | Description |
-| -------------------------------------------------- | ----------- |
-| [@elcoosp-configs/docusaurus](packages/docusaurus) |             |
-| [@elcoosp-configs/biome](packages/biome)           |             |
-| [@elcoosp-configs/lefthook](packages/lefthook)     |             |
-| [@elcoosp-configs/cspell](packages/cspell)         |             |
-| [@elcoosp-configs/rslib](packages/rslib)           |             |
-
-## ✨ Features
+## Features
 
 - Multiple presets per tool
-- Lefthook composable presets
-- Unified workspace
+- Composable lefthook presets
+- Unified workspace with turbo pipelines
 
-## 🎉 Getting started
+## Getting started
 
-Browse the packages list and individually install the config you need
+Browse the package list above and install the preset you need as a
+dependency of your project. Each package README documents its own
+installation and usage instructions.
 
-## 📋 Installation
+## Usage
 
-See individual packages
+This repository is also its own first consumer: the root level
+`biome.json`, `cspell.yml` and `lefthook.yml` files extend the presets
+published by the workspace packages, so the repository source doubles as
+a working reference for every preset.
 
-## 🔧 Usage
+Common workspace scripts:
 
-## 🚀 Roadmap
+```sh
+pnpm build     # build all packages with turbo
+pnpm check     # biome check with fixes
+pnpm test      # run vitest suites
+pnpm test:cov  # run vitest suites with coverage
+```
 
-See the [open issues](https://github.com/elcoosp/elcoosp-configs/issues) for a full list of proposed features (and known issues).
+## Contributing
 
+Any contributions you make are greatly appreciated. Open an issue with
+the [bug report](https://github.com/elcoosp/elcoosp-configs/issues/new?template=bug-report.yml&title=%5BBug%5D%3A+&labels=bug&assignees=elcoosp)
+or [feature request](https://github.com/elcoosp/elcoosp-configs/issues/new?template=feature-request.yml&title=%5BFeat%5D%3A+&labels=enhancement&assignees=elcoosp)
+template before submitting a change.
 
-## 💻 Contributing
-
-Any contributions you make are **greatly appreciated**.
-
-## 📄 License
+## License
 
 Distributed under the MIT License. See `LICENSE.txt` for more information.
 
-## 📨 Contact
+## Acknowledgments
 
-elcoosp - [@elcoosp](https://twitter.com/elcoosp) - [elcoosp@gmail.com](elcoosp@gmail.com)
+All the tools that made those configs shareable.
 
-Project Link: [https://github.com/elcoosp/elcoosp-configs](https://github.com/elcoosp/elcoosp-configs)
-
-## 👏 Acknowledgments
-
-All tools that made those configs shareable
-
-<!--MARKDOWN LINKS & IMAGES-- >
+<!--MARKDOWN LINKS & IMAGES-->
 <!--https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-![Alt](https://repobeats.axiom.co/api/embed/b4ebcd827d58791b008f7bf5bddd78a2dd0e6a43.svg "Repobeats analytics image")
 
 [codecov-shield]: https://img.shields.io/codecov/c/github/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
 [codecov-url]: https://codecov.io/github/elcoosp/elcoosp-configs/tree/main
@@ -119,4 +92,4 @@ All tools that made those configs shareable
 [branch-action-runs-shield]: https://img.shields.io/github/check-runs/elcoosp/elcoosp-configs/main.svg?style=for-the-badge
 [branch-action-runs-url]: https://github.com/elcoosp/elcoosp-configs/actions?query=branch%3Amain
 [license-shield]: https://img.shields.io/github/license/elcoosp/elcoosp-configs.svg?style=for-the-badge
-[license-url]: https://github.com/elcoosp/elcoosp-configs/blob/master/LICENSE.txt
+[license-url]: https://github.com/elcoosp/elcoosp-configs/blob/main/LICENSE.txt
