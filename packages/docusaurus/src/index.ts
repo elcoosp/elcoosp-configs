@@ -138,7 +138,7 @@ export function createDocusaurusConfig(
         locales: ['en'],
       },
       future: {
-        experimental_faster: true,
+        faster: true,
       },
     },
   );
