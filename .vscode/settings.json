@@ -1,5 +1,4 @@
 {
-  "deno.enablePaths": ["readma.config.ts"],
   "json.schemas": [
     {
       "fileMatch": ["packages/biome/src/**.json"],
