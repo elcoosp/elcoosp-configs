@@ -3,3 +3,5 @@ packages:
 allowBuilds:
   core-js: false
   lefthook: true
+allowedDeprecatedVersions:
+  uuid: "*"
