@@ -2,12 +2,12 @@ name: CI
 concurrency:
   group: ${{ github.workflow }}-${{ github.event.pull_request.number || github.ref }}
   cancel-in-progress: true
-run-name: ${{inputs.run-name}}
+run-name: ${{ inputs.run-name || github.workflow }}
 on:
   push:
     branches: [main]
   pull_request:
-    types: [opened, synchronize]
+    types: [opened, synchronize, reopened]
   workflow_call:
     inputs:
       run-name:
@@ -29,8 +29,13 @@ jobs:
     name: Build
     runs-on: ubuntu-latest
     steps:
+      # Empty pnpm-version makes pnpm/action-setup read the version from
+      # the packageManager field of package.json, avoiding the
+      # "Multiple versions of pnpm specified" error the action default
+      # (10.x) triggers against this repo's pnpm 12 pin.
       - uses: elcoosp/ghca-node-pnpm@v1.16
         with:
+          pnpm-version: ""
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm check
       - run: pnpm build
@@ -44,11 +49,12 @@ jobs:
     strategy:
       matrix:
         os: [ubuntu-latest]
-        node: [20, 22]
+        node: [22, 24]
     runs-on: ${{ matrix.os }}
     steps:
       - uses: elcoosp/ghca-node-pnpm@v1.16
         with:
+          pnpm-version: ""
           node-version: ${{ matrix.node }}
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm test
@@ -59,6 +65,7 @@ jobs:
     steps:
       - uses: elcoosp/ghca-node-pnpm@v1.16
         with:
+          pnpm-version: ""
           deno-enabled: ${{ inputs.deno-enabled }}
       - run: pnpm test:cov
       - uses: codecov/codecov-action@v7
@@ -71,9 +78,8 @@ jobs:
     needs: [build, test, test-coverage]
     steps:
       - uses: elcoosp/ghca-node-pnpm@v1.16
-      - uses: actions/download-artifact@v8
         with:
-          name: dist
+          pnpm-version: ""
       - name: Release
         id: changesets
         uses: changesets/action@v2.1.2
