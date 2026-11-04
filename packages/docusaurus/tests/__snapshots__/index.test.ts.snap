@@ -5,7 +5,7 @@ exports[`createDocusaurusConfig 1`] = `
   "baseUrl": "/",
   "favicon": "img/favicon.ico",
   "future": {
-    "experimental_faster": true,
+    "faster": true,
   },
   "i18n": {
     "defaultLocale": "en",
